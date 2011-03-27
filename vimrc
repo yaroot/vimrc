@@ -44,8 +44,10 @@ set expandtab smarttab " 自动将tab展开成空格 行首按tab将自动转换
 set backspace=indent,eol,start  " more powerful backspacing
 set history=200
 set magic ruler
-"set number
-set relativenumber
+set number
+if v:version > 703
+    set relativenumber
+endif
 set wrap nolinebreak
 set diffopt=filler,vertical " diff模式
 set scrolloff=6 " 上下滚动留的最少行数
@@ -64,9 +66,11 @@ set wildmenu
 "set wildmode=list:longest
 set wildmode=longest:full
 
-set undofile
-set undodir=~/.vimundo
-set undolevels=5000
+if v:version > 703
+    set undofile
+    set undodir=~/.vimundo
+    set undolevels=5000
+endif
 
 set foldenable
 set foldmethod=marker
@@ -120,10 +124,10 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 
 hi link luaOperator Conditional
 
-let g:vimwiki_list = [{
-                \'path':         '~/.vimwiki/',
-                \ 'path_html':    '~/.vimwiki_html/'
-                \}]
+"let g:vimwiki_list = [{
+"                \'path':         '~/.vimwiki/',
+"                \ 'path_html':    '~/.vimwiki_html/'
+"                \}]
 
 "if (v:version>=703)
 "    hi ColorColumn ctermbg=234 guibg=#030303
