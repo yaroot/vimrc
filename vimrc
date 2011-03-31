@@ -92,11 +92,13 @@ set foldlevel=0
 if has('gui_running')
     colo tir_black
     set guioptions=
+    set lines=55
+    set columns=160
 
-    if has('win32') || has('macunix')
+    if has('win32')
         set guifont=Monaco:h9:w5
-        set lines=40
-        set columns=130
+    elseif has('macunix')
+        set guifont=Monaco\ 10
     else " linux
         set guifont=DejaVu\ Sans\ Mono\ 9
         set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
