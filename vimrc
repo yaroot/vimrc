@@ -98,7 +98,7 @@ if has('gui_running')
     if has('win32')
         set guifont=Monaco:h9:w5
     elseif has('macunix')
-        set guifont=Monaco\ 10
+        set guifont=Monaco:h14
     else " linux
         set guifont=DejaVu\ Sans\ Mono\ 9
         set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
