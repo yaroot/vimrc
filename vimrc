@@ -45,7 +45,7 @@ set backspace=indent,eol,start  " more powerful backspacing
 set history=200
 set magic ruler
 set number
-if v:version > 703
+if v:version >= 703
     set relativenumber
 endif
 set wrap nolinebreak
@@ -66,7 +66,7 @@ set wildmenu
 "set wildmode=list:longest
 set wildmode=longest:full
 
-if v:version > 703
+if v:version >= 703
     set undofile
     set undodir=~/.vimundo
     set undolevels=5000
