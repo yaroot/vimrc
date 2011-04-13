@@ -1,0 +1,10 @@
+
+*~
+*.sw[a-z]
+
+
+# ignore eclim
+eclim
+plugin/eclim.vim
+
+
