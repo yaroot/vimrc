@@ -1,10 +1,19 @@
 
+# vim files
 *~
 *.sw[a-z]
-
+Session.vim
 
 # ignore eclim
 eclim
 plugin/eclim.vim
 
+
+
+# Mac OSX
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
 
