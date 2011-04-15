@@ -31,8 +31,6 @@ DirDiff             http://www.vim.org/scripts/script.php?script_id=102
 
 ack.vim             http://www.vim.org/scripts/script.php?script_id=2572
 Command-T           http://www.vim.org/scripts/script.php?script_id=3025
-L9                  http://www.vim.org/scripts/script.php?script_id=3252
-FuzzyFinder         http://www.vim.org/scripts/script.php?script_id=1984
 
 taglist.vim         http://www.vim.org/scripts/script.php?script_id=273
 ctags.vom           http://www.vim.org/scripts/script.php?script_id=610
@@ -48,4 +46,6 @@ Sorcerer            http://www.vim.org/scripts/script.php?script_id=3299
 molokai             http://www.vim.org/scripts/script.php?script_id=2340
 
 VimIM               http://vim.sourceforge.net/scripts/script.php?script_id=2506
+
+eclim               http://eclim.org/
 
