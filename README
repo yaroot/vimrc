@@ -11,6 +11,7 @@ dbext               http://www.vim.org/scripts/script.php?script_id=356
 rails.vim           http://www.vim.org/scripts/script.php?script_id=1567
 
 AutoComplPop        http://www.vim.org/scripts/script.php?script_id=1879
+SuperTab            http://www.vim.org/scripts/script.php?script_id=1643
 neocomplcache       http://www.vim.org/scripts/script.php?script_id=2620
 OmniCppComplete     http://www.vim.org/scripts/script.php?script_id=1520
 Pydiction           http://www.vim.org/scripts/script.php?script_id=850
