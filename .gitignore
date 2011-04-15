@@ -4,9 +4,6 @@
 *.sw[a-z]
 Session.vim
 
-# ignore eclim
-eclim
-plugin/eclim.vim
 
 
 
