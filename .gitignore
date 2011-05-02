@@ -4,7 +4,7 @@
 *.sw[a-z]
 Session.vim
 
-
+.netewhist
 
 
 # Mac OSX
