@@ -203,5 +203,5 @@ let g:DirDiffIgnoreCase = 0
 let g:SuperTabDefaultCompletionType = 'context'
 
 autocmd FileType html let b:did_indent = 1
-autocmd FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
+autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
 
