@@ -50,10 +50,10 @@ set wildmenu
 "set wildmode=list:longest
 set wildmode=longest:full
 
-if v:version >= 703
+if has('undo-persistent')
     set undofile
     set undodir=~/.vimundo
-    set undolevels=5000
+    set undolevels=1000
 endif
 
 set foldenable
