@@ -5,7 +5,6 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 
 set nocp nobackup nowritebackup
-"set background=dark
 
 " leader keybind
 let mapleader=','
@@ -69,6 +68,9 @@ set foldlevel=0
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 "inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<TAB>"
 
+
+set background=dark
+"colo solarized
 "colo slate
 "colo torte
 "colo lucius
@@ -92,7 +94,7 @@ if has('gui_running')
         set columns=130
     endif
 else
-    colo lucius
+    colo ir_black
     " set to 256 color for screen/tmux
     "set t_Co=256
 endif
