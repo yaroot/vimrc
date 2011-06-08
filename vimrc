@@ -62,7 +62,6 @@ set foldmarker={{{,}}}
 set foldnestmax=5
 set foldminlines=1
 set foldlevel=0
-"autocmd FileType javascript set foldmethod=marker foldlevel=0
 
 "set ofu=syntaxcomplete#Complete
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
@@ -205,5 +204,6 @@ let g:DirDiffIgnoreCase = 0
 let g:SuperTabDefaultCompletionType = 'context'
 
 autocmd FileType html let b:did_indent = 1
-autocmd FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
+autocmd FileType ruby,html,sass,coffee setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
+"autocmd FileType javascript set foldmethod=marker foldlevel=0
 
