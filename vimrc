@@ -67,6 +67,9 @@ set foldlevel=0
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 "inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<TAB>"
 
+"autocmd FileType html let b:did_indent = 1
+autocmd FileType ruby,html,sass,coffee setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
+"autocmd FileType javascript set foldmethod=marker foldlevel=0
 
 set background=dark
 "colo solarized
@@ -161,35 +164,12 @@ nnoremap <leader>8 :set t_Co=8<CR>
 nnoremap <leader>a :Ack  <bs>
 
 " NERDTree toggle
-nnoremap <F11> :NERDTreeToggle<CR>
+"nnoremap <F11> :NERDTreeToggle<CR>
 " taglist
-nnoremap <F12> :TlistToggle<CR>
+"nnoremap <F12> :TlistToggle<CR>
 
 
-"indent color
-"hi 4spa guibg = #771144
-"hi 8spa guibg = #22464A
-"hi 12spa guibg = #344333
-"hi 16spa guibg = #777444
-"hi 20spa guibg = #555777
-"hi 24spa guibg = #cc9966
-"hi 80spa guibg = #ff1111
-""style 1
-"syn match 4spa /\(\s\{4}\|\n\)\&\%1v.*\%2v/
-"syn match 8spa /\s\{4}\&\%5v.*\%6v/
-"syn match 12spa /\s\{4}\&\%9v.*\%10v/
-"syn match 16spa /\s\{4}\&\%13v.*\%14v/
-"syn match 20spa /\s\{4}\&\%17v.*\%18v/
-"syn match 24spa /\s\{4}\&\%21v.*\%22v/
-"style 2
-"syn match 4spa /\(\s\|\n\)\&\%4v.*\%5v/
-"syn match 8spa /\s\&\%8v.*\%9v/
-"syn match 12spa /\s\&\%12v.*\%13v/
-"syn match 16spa /\s\&\%16v.*\%17v/
-"syn match 20spa /\s\&\%20v.*\%21v/
-"syn match 24spa /\s\&\%24v.*\%25v/
-"syn match 80spa /.\&\%80v.*\%81v/
-
+" DirDiff
 "Sets default exclude pattern:
 let g:DirDiffExcludes = "CVS,*.git,*.svn,*.class,*.exe,.*.swp"
 "Sets default ignore pattern:
@@ -201,13 +181,14 @@ let g:DirDiffWindowSize = 10
 "Ignore case during diff
 let g:DirDiffIgnoreCase = 0
 
+" superTab setting
 let g:SuperTabDefaultCompletionType = 'context'
 
-autocmd FileType html let b:did_indent = 1
-autocmd FileType ruby,html,sass,coffee setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
-"autocmd FileType javascript set foldmethod=marker foldlevel=0
+" snipMate
+"autocmd VimEnter ino <c-k> <c-r>=TriggerSnippet()<cr>
+"autocmd VimEnter snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
 
-
+" indent guides
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
