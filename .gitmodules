@@ -1,6 +1,3 @@
-[submodule "bundle/DirDiff"]
-	path = bundle/DirDiff
-	url = git://github.com/vim-scripts/DirDiff.vim.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
