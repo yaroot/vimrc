@@ -14,3 +14,7 @@ Icon?
 .Spotlight-V100
 .Trashes
 
+
+# eclim.org
+eclim/
+plugin/eclim.vim
