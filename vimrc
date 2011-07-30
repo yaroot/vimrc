@@ -105,12 +105,8 @@ endif
 "set cuc
 "set cul
 
-" 以 >--- 显示制表符, `显示多余空格
-"set listchars=tab:\ \ ,trail:`
-set listchars=tab:\ \ ,trail:¤
-set list
+set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 hi SpecialKey guibg=NONE ctermbg=NONE
-"set listchars=tab:>-,trail:`
 "hi SpecialKey guifg=#3a3a3a ctermfg=237
 
 hi link luaOperator Conditional
