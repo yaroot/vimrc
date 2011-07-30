@@ -40,3 +40,6 @@
 [submodule "bundle/dirdiff"]
 	path = bundle/dirdiff
 	url = git://github.com/vim-scripts/DirDiff.vim.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
