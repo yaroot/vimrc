@@ -105,7 +105,7 @@ endif
 "set cuc
 "set cul
 
-set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
+"set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 hi SpecialKey guibg=NONE ctermbg=NONE
 "hi SpecialKey guifg=#3a3a3a ctermfg=237
 
