@@ -96,8 +96,9 @@ if has('gui_running')
         set columns=130
     endif
 else
-    colo ir_black
-    " set to 256 color for screen/tmux
+    " set colorscheme for terminal
+    "colo ir_black
+    " force 256 colors
     "set t_Co=256
 endif
 
@@ -146,11 +147,6 @@ nnoremap <bs> :noh<CR>
 vnoremap <leader>yy "+y
 nnoremap <leader>pp "+p
 nnoremap <leader>ft :set filetype=
-nnoremap <leader>lua :set filetype=lua<CR>
-nnoremap <leader>js :set filetype=javascript<CR>
-nnoremap <leader>rb :set filetype=ruby<CR>
-nnoremap <leader>py :set filetype=py<CR>
-nnoremap <leader>php :set filetype=php<CR>
 nnoremap <leader>hex :%!xxd<CR>
 nnoremap <leader>xeh :%!xxd -r<CR>
 nnoremap <leader>2 :set t_Co=256<CR>
