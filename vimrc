@@ -134,11 +134,9 @@ hi link luaOperator Conditional
 "if executable('ctags')
 "endif
 
-nnoremap <C-S-C> :tabclose<CR>
-nnoremap <C-S-N> :tabnew<CR>
-nnoremap <C-TAB> :tabnext<CR>
-nnoremap <S-TAB> :tabprevious<CR>
-nnoremap <C-S-TAB> :tabprevious<CR>
+nnoremap <C-M-N> :tabnew<CR>
+nnoremap <C-N> :tabnext<CR>
+nnoremap <C-P> :tabprevious<CR>
 nnoremap <C-H> <C-W>h
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
