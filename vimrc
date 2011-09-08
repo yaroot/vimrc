@@ -30,7 +30,9 @@ set history=200
 set magic ruler
 set number
 if v:version>=703
-    set relativenumber
+    autocmd BufNewFile,BufRead * set relativenumber
+else
+    set number
 endif
 set wrap nolinebreak
 set diffopt=filler,vertical " diff模式
