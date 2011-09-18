@@ -2,6 +2,7 @@
 
 " call pathogen to load the plugins
 filetype off
+set runtimepath+=~/.vim/vim-pathogen
 call pathogen#runtime_append_all_bundles()
 
 set nocp nobackup nowritebackup
