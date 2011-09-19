@@ -2,7 +2,11 @@
 
 " call pathogen to load the plugins
 filetype off
-set runtimepath+=~/.vim/vim-pathogen
+if has('win32')
+    set runtimepath+=$VIM/vimfiles/vim-pathogen
+else
+    set runtimepath+=~/.vim/vim-pathogen
+end
 call pathogen#runtime_append_all_bundles()
 
 set nocp nobackup nowritebackup
