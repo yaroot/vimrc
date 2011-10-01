@@ -165,6 +165,8 @@ nnoremap <leader>a :Ack  <bs>
 " taglist
 "nnoremap <F12> :TlistToggle<CR>
 
+" FuzzyFinder
+nmap <leader>ff :FufFile **/<CR>
 
 " DirDiff
 "Sets default exclude pattern:
