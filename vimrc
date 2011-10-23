@@ -180,9 +180,6 @@ let g:DirDiffWindowSize = 10
 "Ignore case during diff
 let g:DirDiffIgnoreCase = 0
 
-" superTab setting
-let g:SuperTabDefaultCompletionType = 'context'
-
 " snipMate
 "autocmd VimEnter ino <c-k> <c-r>=TriggerSnippet()<cr>
 "autocmd VimEnter snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
