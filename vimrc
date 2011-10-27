@@ -88,8 +88,8 @@ set background=dark
 if has('gui_running')
     colo tir_black
     set guioptions=
-    "set lines=55
-    "set columns=160
+    set lines=55
+    set columns=160
 
     if has('win32')
         set guifont=Monaco:h9:w5
@@ -99,11 +99,9 @@ if has('gui_running')
         set guifont=DejaVu\ Sans\ Mono\ 9
         set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
         "set guifont=Monospace:h7:w3
-        set lines=40
-        set columns=130
     endif
 else
-    set t_Co=256
+    "set t_Co=256
     colo ir_black
 endif
 
