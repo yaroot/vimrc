@@ -67,3 +67,6 @@
 [submodule "bundle/drawit"]
 	path = bundle/drawit
 	url = git://github.com/vim-scripts/DrawIt.git
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = git://github.com/tpope/vim-pathogen.git
