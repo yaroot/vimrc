@@ -74,10 +74,6 @@ set foldlevel=0
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 "inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<TAB>"
 
-"autocmd FileType html let b:did_indent = 1
-autocmd FileType ruby,html,sass,coffee setlocal tabstop=2 shiftwidth=2 softtabstop=2 " ruby people use 2 spaces
-"autocmd FileType javascript set foldmethod=marker foldlevel=0
-
 set background=dark
 "colo solarized
 "colo slate
