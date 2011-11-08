@@ -73,3 +73,6 @@
 [submodule "bundle/javacomplete"]
 	path = bundle/javacomplete
 	url = git://github.com/vim-scripts/javacomplete.git
+[submodule "bundle/tasklist"]
+	path = bundle/tasklist
+	url = git://github.com/vim-scripts/TaskList.vim.git
