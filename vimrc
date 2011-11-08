@@ -152,6 +152,9 @@ nnoremap <leader>8 :set t_Co=8<CR>
 " ack on the fly
 nnoremap <leader>a :Ack  <bs>
 
+" TaskList
+map <unique> <leader>tl <Plug>TaskList
+
 " NERDTree toggle
 "nnoremap <F11> :NERDTreeToggle<CR>
 " taglist
@@ -159,6 +162,11 @@ nnoremap <leader>a :Ack  <bs>
 
 " FuzzyFinder
 nmap <leader>ff :FufFile **/<CR>
+
+" Command-T
+nnoremap <unique> <silent> <Leader>tt :CommandT<CR>
+nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
+
 
 " DirDiff
 "Sets default exclude pattern:
