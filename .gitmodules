@@ -79,3 +79,12 @@
 [submodule "bundle/vividchalk"]
 	path = bundle/vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/lucius"]
+	path = bundle/lucius
+	url = git://github.com/vim-scripts/Lucius.git
+[submodule "bundle/tir_black"]
+	path = bundle/tir_black
+	url = git://github.com/vim-scripts/tir_black.git
+[submodule "bundle/wombat"]
+	path = bundle/wombat
+	url = git://github.com/vim-scripts/Wombat.git
