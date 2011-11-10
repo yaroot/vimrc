@@ -12,4 +12,4 @@ install:
 	cp _vimrc $HOME/.vimrc
 
 
-.PHONEY: update install
+.PHONEY: update moduleupdate install
