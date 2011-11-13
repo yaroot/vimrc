@@ -111,23 +111,10 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 
 hi link luaOperator Conditional
 
-"if (v:version>=703)
-"    hi ColorColumn ctermbg=234 guibg=#030303
-"    "set colorcolumn=4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,80,100
-"    set colorcolumn=4,8,12,16,80,100
-"    set colorcolumn=80,100
-"    let g:IsColorColumnOn = 1
-"    function! ToggleColorColumn()
-"        if g:IsColorColumnOn == 1
-"            set colorcolumn=0
-"        else
-"            set colorcolumn=4,8,12,16,80,100
-"        endif
-"        let g:IsColorColumnOn = 1 - g:IsColorColumnOn
-"    endfunction
-"    command! -n=0 ToggleColorColumn call ToggleColorColumn()
-"    map <F6> :ToggleColorColumn<CR>
-"endif
+if (v:version>=703)
+    hi ColorColumn ctermbg=234 guibg=#121212
+    set colorcolumn=72,80
+endif
 
 
 "if executable('ctags')
