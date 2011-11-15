@@ -12,6 +12,9 @@ updatesubmodule:
 bundleupdate:
 	git submodule foreach 'git checkout master; git fetch origin; git merge origin/master --ff-only'
 
+bundleclean:
+	git submodule foreach 'git clean -f'
+
 install:
 	cp _vimrc $HOME/.vimrc
 
