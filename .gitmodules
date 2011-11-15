@@ -88,3 +88,12 @@
 [submodule "bundle/wombat"]
 	path = bundle/wombat
 	url = git://github.com/vim-scripts/Wombat.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "bundle/mw-utils"]
+	path = bundle/mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = git://github.com/tomtom/tlib_vim.git
