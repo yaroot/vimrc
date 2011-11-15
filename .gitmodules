@@ -18,7 +18,7 @@
 	url = git://github.com/tpope/vim-rails.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = git://github.com/msanders/snipmate.vim.git
+	url = git://github.com/garbas/vim-snipmate.git
 [submodule "bundle/endwise"]
 	path = bundle/endwise
 	url = git://github.com/tpope/vim-endwise.git
