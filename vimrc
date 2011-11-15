@@ -70,10 +70,6 @@ set foldnestmax=5
 set foldminlines=1
 set foldlevel=0
 
-"set ofu=syntaxcomplete#Complete
-"inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-"inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<TAB>"
-
 set background=dark
 "colo solarized
 "colo slate
@@ -168,8 +164,8 @@ let g:DirDiffWindowSize = 10
 let g:DirDiffIgnoreCase = 0
 
 " snipMate
-"autocmd VimEnter ino <c-k> <c-r>=TriggerSnippet()<cr>
-"autocmd VimEnter snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
+"let g:snips_trigger_key='<c-y>'
+"let g:snips_trigger_key_backwards='<s-c->'
 
 " indent guides
 let g:indent_guides_auto_colors = 0
