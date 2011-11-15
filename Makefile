@@ -1,15 +1,19 @@
 
+all: update updatesubmodule
 
 update:
 	git fetch origin
 	git merge origin/master
+
+updatesubmodule:
+	git submodule sync
 	git submodule update --init
 
-moduleupdate:
+bundleupdate:
 	git submodule foreach 'git checkout master; git fetch origin; git merge origin/master --ff-only'
 
 install:
 	cp _vimrc $HOME/.vimrc
 
 
-.PHONEY: update moduleupdate install
+.PHONEY: all update updatesubmodule bundleupdate install
