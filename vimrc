@@ -83,6 +83,8 @@ set foldnestmax=5
 set foldminlines=1
 set foldlevel=0
 
+set ttyfast
+
 set background=dark
 "colo solarized
 "colo slate
