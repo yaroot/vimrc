@@ -9,7 +9,7 @@ else
 end
 call pathogen#runtime_append_all_bundles()
 
-set nocp nobackup nowritebackup
+set nocp
 
 " leader keybind
 let mapleader=','
@@ -59,9 +59,22 @@ set wildmode=longest:full
 
 if has('undo-persistent')
     set undofile
-    set undodir=~/.vimundo
     set undolevels=1000
+    if has('win32')
+        set undodir=$home/vimfiles/tmp/undo//
+    else
+        set undodir=~/.vim/tmp/undo//
+    endif
 endif
+
+if has('win32')
+    set backupdir=$home/vimfiles/tmp/backup//
+    set directory=$home/vimfiles/tmp/backup//
+else
+    set backupdir=~/.vim/tmp/backup//
+    set directory=~/.vim/tmp/swap//
+endif
+set backup writebackup
 
 set foldenable
 set foldmethod=marker
