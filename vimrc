@@ -57,19 +57,19 @@ set wildmenu
 "set wildmode=list:longest
 set wildmode=longest:full
 
-if has('undo-persistent')
+if v:version>=703
     set undofile
     set undolevels=1000
     if has('win32')
-        set undodir=$home\vimfiles\tmp\undo\\
+        set undodir=$home\vimfiles\tmp\undo\\\\
     else
         set undodir=~/.vim/tmp/undo//
     endif
 endif
 
 if has('win32')
-    set backupdir=$home\vimfiles\tmp\backup\\
-    set directory=$home\vimfiles\tmp\backup\\
+    set backupdir=$home\vimfiles\tmp\backup\\\\
+    set directory=$home\vimfiles\tmp\backup\\\\
 else
     set backupdir=~/.vim/tmp/backup//
     set directory=~/.vim/tmp/swap//
