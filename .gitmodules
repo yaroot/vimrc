@@ -97,3 +97,6 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = git://github.com/tpope/vim-commentary.git
+[submodule "bundle/moonscript"]
+	path = bundle/moonscript
+	url = git://github.com/leafo/moonscript-vim.git

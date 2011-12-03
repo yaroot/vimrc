@@ -15,7 +15,7 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete
 
-autocmd FileType c,ruby,eruby,perl,tex,sass,scss,coffee,html,xhtml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType c,ruby,eruby,perl,tex,sass,scss,coffee,html,xhtml,moon setlocal tabstop=2 shiftwidth=2 softtabstop=2
 "autocmd FileType html let b:did_indent = 1
 
 
