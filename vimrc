@@ -99,7 +99,7 @@ if has('gui_running')
     set columns=160
 
     if has('win32')
-        set guifont=Monaco:h9:w5
+        set guifont=Monaco:h9
     elseif has('macunix')
         set guifont=Monaco:h14
     else
