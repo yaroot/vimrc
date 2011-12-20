@@ -3,9 +3,9 @@
 " call pathogen to load the plugins
 filetype off
 if has('win32')
-    set runtimepath+=$HOME/vimfiles/bundle/pathogen
+    set runtimepath+=$HOME/vimfiles/vendor/pathogen
 else
-    set runtimepath+=~/.vim/bundle/pathogen
+    set runtimepath+=~/.vim/vendor/pathogen
 end
 call pathogen#runtime_append_all_bundles()
 

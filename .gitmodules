@@ -106,3 +106,9 @@
 [submodule "bundle/rainbow-parenthesis"]
 	path = bundle/rainbow-parenthesis
 	url = git://github.com/vim-scripts/Rainbow-Parenthesis.git
+[submodule "vendor/pathogen"]
+	path = vendor/pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "vendor/vimclojure"]
+	path = vendor/vimclojure
+	url = git://github.com/vim-scripts/VimClojure.git
