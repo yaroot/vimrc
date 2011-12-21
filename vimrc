@@ -123,7 +123,7 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 hi link luaOperator Conditional
 
 if (v:version>=703)
-    hi ColorColumn ctermbg=234 guibg=#121212
+    au colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
     set colorcolumn=72,80
 endif
 
