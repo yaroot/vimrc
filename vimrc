@@ -123,7 +123,7 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 hi link luaOperator Conditional
 
 if (v:version>=703)
-    au colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
+    au vimenter,colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
     set colorcolumn=72,80
 endif
 
@@ -190,11 +190,9 @@ let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
 
-let g:yankring_history_dir = '~/.vim/tmp/'
-if has('win32')
-    let g:yankring_history_dir = '~/vimfiles/tmp/'
-endif
-
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
+
+
+
 
