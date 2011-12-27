@@ -114,4 +114,10 @@
 	url = git://github.com/groenewege/vim-less.git
 [submodule "bundle/align"]
 	path = bundle/align
-	url = git://github.com/vim-scripts/Align.git
+	url = git://github.com/yaroot/Align.git
+[submodule "bundle/a"]
+	path = bundle/a
+	url = git://github.com/vim-scripts/a.vim.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
