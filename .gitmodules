@@ -1,9 +1,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/ack.vim"]
-	path = bundle/ack.vim
-	url = git://github.com/mileszs/ack.vim.git
 [submodule "bundle/dbext"]
 	path = bundle/dbext
 	url = git://github.com/vim-scripts/dbext.vim.git
@@ -61,9 +58,6 @@
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = git://github.com/vim-scripts/L9.git
-[submodule "bundle/a.vim"]
-	path = bundle/a.vim
-	url = git://github.com/vim-scripts/a.vim.git
 [submodule "bundle/drawit"]
 	path = bundle/drawit
 	url = git://github.com/vim-scripts/DrawIt.git
