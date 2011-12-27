@@ -60,7 +60,7 @@
 	url = git://github.com/vim-scripts/L9.git
 [submodule "bundle/drawit"]
 	path = bundle/drawit
-	url = git://github.com/vim-scripts/DrawIt.git
+	url = git://github.com/yaroot/DrawIt.git
 [submodule "bundle/javacomplete"]
 	path = bundle/javacomplete
 	url = git://github.com/vim-scripts/javacomplete.git
@@ -121,3 +121,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/vissort"]
+	path = bundle/vissort
+	url = git://github.com/yaroot/vissort.git
