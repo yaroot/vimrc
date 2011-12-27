@@ -193,6 +193,6 @@ let g:indent_guides_guide_size  = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
 
-
+let g:loaded_AlignMapsPlugin = "v41"
 
 
