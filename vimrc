@@ -164,6 +164,7 @@ nmap <leader>tf :FufFile **/<CR>
 " ctrlp
 nnoremap <leader>tp :CtrlP<CR>
 let g:ctrlp_map = "<c-m-p>"
+let g:ctrlp_working_path_mode = 0
 
 " Command-T
 nnoremap <unique> <silent> <Leader>tt :CommandT<CR>
