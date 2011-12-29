@@ -124,6 +124,3 @@
 [submodule "bundle/vissort"]
 	path = bundle/vissort
 	url = git://github.com/yaroot/vissort.git
-[submodule "bundle/zenburn"]
-	path = bundle/zenburn
-	url = git://github.com/jnurmine/Zenburn.git
