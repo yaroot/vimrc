@@ -44,6 +44,10 @@ set diffopt=filler,vertical " diff模式
 set scrolloff=6 " 上下滚动留的最少行数
 "set cmdheight=2
 
+set textwidth=79
+set wrapmargin=0
+set formatoptions=croq
+
 filetype plugin indent on
 syntax on
 
@@ -194,6 +198,6 @@ let g:indent_guides_guide_size  = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
 
+" disable Align mapping
 let g:loaded_AlignMapsPlugin = "v41"
-
 
