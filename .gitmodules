@@ -127,3 +127,6 @@
 [submodule "bundle/zenburn/colors"]
 	path = bundle/zenburn/colors
 	url = git://github.com/jnurmine/Zenburn.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = git://github.com/mattn/zencoding-vim.git
