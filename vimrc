@@ -126,6 +126,9 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 
 hi link luaOperator Conditional
 
+let g:lisp_rainbow = 1
+"runtime syntax/RainbowParenthesis.vim
+
 if (v:version>=703)
     au vimenter,colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
     set colorcolumn=72,80
