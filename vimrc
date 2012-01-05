@@ -24,6 +24,7 @@ set fileencodings=ucs-bom,utf-8,gb-18030,gbk,gb2312,cp963,gb18030,big5,euc-jp,eu
 
 "au BufReadPost,BufNewFile * if !&readonly | setlocal nobomb fileformat=unix fileencoding=utf-8 | endif
 
+set showmatch       " blink the matching bracket
 set hls incsearch
 set autoindent cindent smartindent
 set tabstop=4       " 4 spaces indentation
