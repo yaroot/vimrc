@@ -205,3 +205,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
 " disable Align mapping
 let g:loaded_AlignMapsPlugin = "v41"
 
+if has('win32')
+    let g:syntastic_mode_map['mode'] = 'passive'
+endif
+
