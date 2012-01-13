@@ -6,7 +6,7 @@ if has('win32')
     set runtimepath+=$HOME/vimfiles/vendor/pathogen
 else
     set runtimepath+=~/.vim/vendor/pathogen
-end
+endif
 call pathogen#runtime_append_all_bundles()
 
 set nocp
@@ -204,4 +204,14 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
 
 " disable Align mapping
 let g:loaded_AlignMapsPlugin = "v41"
+
+" yankring shits
+let g:yankring_replace_n_pkey = ''
+let g:yankring_replace_n_nkey = ''
+
+if has('win32')
+    let g:yankring_history_dir = "$HOME/vimfiles/tmp/"
+else
+    let g:yankring_history_dir = "~/.vim/tmp/"
+endif
 
