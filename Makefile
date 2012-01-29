@@ -18,7 +18,4 @@ bundleclean:
 install:
 	cp _vimrc $HOME/.vimrc
 
-tmpdir:
-	mkdir -p tmp/{undo,backup,swap}
-
 .PHONEY: all update updatesubmodule bundleupdate install
