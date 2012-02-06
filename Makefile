@@ -2,8 +2,7 @@
 all: update submodule-update
 
 update:
-	git fetch origin
-	git merge origin/master
+	git pull --rebase
 
 submodule-update:
 	git submodule sync
@@ -17,7 +16,4 @@ bundle-prune:
 
 bundle-clean:
 	git submodule foreach 'git clean -f'
-
-install:
-	cp _vimrc $HOME/.vimrc
 
