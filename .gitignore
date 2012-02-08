@@ -3,9 +3,9 @@
 *~
 *.sw[a-z]
 Session.vim
-
 .netrwhist
 
+/bundle/uzbl
 /tmp/
 
 # Mac OSX
