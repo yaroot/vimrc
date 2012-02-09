@@ -1,6 +1,3 @@
-[submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/dbext"]
 	path = bundle/dbext
 	url = git://github.com/vim-scripts/dbext.vim.git
@@ -34,9 +31,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/muttrc"]
 	path = bundle/muttrc
 	url = git://github.com/vim-scripts/muttrc.vim.git
