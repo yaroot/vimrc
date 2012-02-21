@@ -101,7 +101,7 @@ if has('gui_running')
     colo tir_black
     set guioptions=
     set lines=55
-    set columns=160
+    set columns=180
 
     if has('win32')
         set guifont=Monaco:h9
