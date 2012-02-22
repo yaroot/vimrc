@@ -166,14 +166,6 @@ map <unique> <leader>tl <Plug>TaskList
 " taglist
 "nnoremap <F12> :TlistToggle<CR>
 
-" FuzzyFinder
-nmap <leader>tf :FufFile **/<CR>
-
-" ctrlp
-nnoremap <leader>tp :CtrlP<CR>
-let g:ctrlp_map = "<c-m-p>"
-let g:ctrlp_working_path_mode = 0
-
 " Command-T
 nnoremap <unique> <silent> <Leader>tt :CommandT<CR>
 nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
