@@ -174,6 +174,10 @@ nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
 nnoremap <leader>tp :CtrlP<CR>
 let g:ctrlp_map = "<c-m-p>"
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$',
+  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ }
 
 " DirDiff
 "Sets default exclude pattern:
