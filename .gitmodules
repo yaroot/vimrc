@@ -130,3 +130,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle/zenburn"]
+	path = bundle/zenburn
+	url = git://github.com/jnurmine/Zenburn.git
