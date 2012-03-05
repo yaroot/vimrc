@@ -133,3 +133,6 @@
 [submodule "bundle/zenburn"]
 	path = bundle/zenburn
 	url = git://github.com/jnurmine/Zenburn.git
+[submodule "bundle/omnicppcomplete"]
+	path = bundle/omnicppcomplete
+	url = git://github.com/vim-scripts/OmniCppComplete.git
