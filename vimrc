@@ -127,6 +127,9 @@ hi SpecialKey guibg=NONE ctermbg=NONE
 
 hi link luaOperator Conditional
 
+let java_highlight_all=1
+let java_highlight_functions="style"
+
 let g:lisp_rainbow = 1
 "runtime syntax/RainbowParenthesis.vim
 
