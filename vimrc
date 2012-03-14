@@ -215,6 +215,12 @@ let g:yankring_replace_n_nkey = ''
 
 if has('win32')
     let g:yankring_history_dir = "$HOME/vimfiles/tmp/"
+    let g:loaded_dbext_dbi = 1
+    let g:loaded_dbext_auto = 1
+    let g:loaded_dbext = 1
+
+    let g:syntastic_mode_map = {}
+    let g:syntastic_mode_map['mode'] = 'passive'
 else
     let g:yankring_history_dir = "~/.vim/tmp/"
 endif
