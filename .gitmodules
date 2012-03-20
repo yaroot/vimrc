@@ -136,3 +136,6 @@
 [submodule "bundle/omnicppcomplete"]
 	path = bundle/omnicppcomplete
 	url = git://github.com/vim-scripts/OmniCppComplete.git
+[submodule "bundle/slim"]
+	path = bundle/slim
+	url = git://github.com/bbommarito/vim-slim.git
