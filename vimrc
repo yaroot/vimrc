@@ -129,6 +129,10 @@ hi link luaOperator Conditional
 
 let java_highlight_all=1
 let java_highlight_functions="style"
+let java_highlight_debug=1
+let java_mark_braces_in_parens_as_errors=1
+let java_space_errors=1
+let java_comment_strings=1
 
 let g:lisp_rainbow = 1
 "runtime syntax/RainbowParenthesis.vim
