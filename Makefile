@@ -9,7 +9,7 @@ submodule-update:
 	git submodule update --init
 
 bundle-update:
-	git submodule foreach 'git checkout master; git pull --ff-only'
+	git submodule foreach 'git pull --ff-only'
 
 bundle-prune:
 	git submodule foreach 'git prune; git remote prune origin'
