@@ -1,5 +1,5 @@
 
-all: update submodule-update
+all: update submodule-update tmp_dirs
 
 update:
 	git pull --rebase
@@ -16,4 +16,7 @@ bundle-prune:
 
 bundle-clean:
 	git submodule foreach 'git clean -f'
+
+tmp_dirs:
+	mkdir -p tmp/{backup,swap,undo}
 
