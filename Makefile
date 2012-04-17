@@ -20,3 +20,6 @@ bundle-clean:
 tmp_dirs:
 	mkdir -p tmp/{backup,swap,undo}
 
+tarball:
+	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp' *
+
