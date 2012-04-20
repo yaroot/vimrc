@@ -145,3 +145,6 @@
 [submodule "vendor/slimv"]
 	path = vendor/slimv
 	url = git://github.com/vim-scripts/slimv.vim.git
+[submodule "bundle/jinja"]
+	path = bundle/jinja
+	url = git://github.com/vim-scripts/Jinja.git
