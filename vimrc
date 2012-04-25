@@ -6,12 +6,7 @@ if has('win32')
 else
     set runtimepath+=~/.vim/bundle/vundle
 endif
-" if has('win32')
-"     set runtimepath+=$HOME/vimfiles/vendor/pathogen
-" else
-"     set runtimepath+=~/.vim/vendor/pathogen
-" endif
-" call pathogen#runtime_append_all_bundles()
+call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
