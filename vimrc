@@ -1,13 +1,70 @@
 
 
-" call pathogen to load the plugins
 filetype off
 if has('win32')
-    set runtimepath+=$HOME/vimfiles/vendor/pathogen
+    set runtimepath+=$HOME/vimfiles/bundle/vundle
 else
-    set runtimepath+=~/.vim/vendor/pathogen
+    set runtimepath+=~/.vim/bundle/vundle
 endif
-call pathogen#runtime_append_all_bundles()
+" if has('win32')
+"     set runtimepath+=$HOME/vimfiles/vendor/pathogen
+" else
+"     set runtimepath+=~/.vim/vendor/pathogen
+" endif
+" call pathogen#runtime_append_all_bundles()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'bbommarito/vim-slim'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'godlygeek/tabular'
+Bundle 'groenewege/vim-less'
+Bundle 'int3/vim-extradite'
+Bundle 'jnurmine/Zenburn'
+Bundle 'juvenn/mustache.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'leafo/moonscript-vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'mattn/gist-vim'
+Bundle 'mattn/zencoding-vim'
+Bundle 'michaeljsmith/vim-indent-object'
+Bundle 'mileszs/ack.vim'
+Bundle 'msanders/snipmate.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'othree/html5.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'thedjinn/vim-endwise'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-pathogen'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'vim-scripts/DirDiff.vim'
+Bundle 'vim-scripts/Gundo'
+Bundle 'vim-scripts/Jinja'
+Bundle 'vim-scripts/Lucius'
+Bundle 'vim-scripts/OmniCppComplete'
+Bundle 'vim-scripts/Rainbow-Parenthesis'
+Bundle 'vim-scripts/TaskList.vim'
+Bundle 'vim-scripts/VimClojure'
+Bundle 'vim-scripts/Wombat'
+Bundle 'vim-scripts/YankRing.vim'
+Bundle 'vim-scripts/a.vim'
+Bundle 'vim-scripts/dbext.vim'
+Bundle 'vim-scripts/javacomplete'
+Bundle 'vim-scripts/muttrc.vim'
+Bundle 'vim-scripts/nginx.vim'
+Bundle 'vim-scripts/slimv.vim'
+Bundle 'vim-scripts/taglist.vim'
+Bundle 'vim-scripts/tir_black'
+Bundle 'wincent/Command-T'
+Bundle 'yaroot/Align'
+Bundle 'yaroot/DrawIt'
+Bundle 'yaroot/vissort'
 
 set nocp
 
