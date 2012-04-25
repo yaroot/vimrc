@@ -3,12 +3,12 @@ all: update vundle tmp_dirs
 
 update:
 	git pull --rebase
-	echo "Enter vim and run ':BundleInstall!' to install all submodules"
+	@echo "Enter vim and run ':BundleInstall!' to install all submodules"
 
 vundle:
-	pushd bundle; if [ ! -d 'vundle' ]; then \
-		git clone git://github.com/gmarik/vundle.git \
-		popd
+	@pushd bundle; if [ ! -d 'vundle' ]; then \
+		git clone git://github.com/gmarik/vundle.git; \
+		fi; popd;
 
 tmp_dirs:
 	mkdir -p tmp/{backup,swap,undo}
