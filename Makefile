@@ -1,25 +1,18 @@
 
-all: update submodule-update tmp_dirs
+all: update vundle tmp_dirs
 
 update:
 	git pull --rebase
+	echo "Enter vim and run ':BundleInstall!' to install all submodules"
 
-submodule-update:
-	git submodule sync
-	git submodule update --init
-
-bundle-update:
-	git submodule foreach 'git checkout master; git pull --ff-only'
-
-bundle-prune:
-	git submodule foreach 'git prune; git remote prune origin'
-
-bundle-clean:
-	git submodule foreach 'git clean -f'
+vundle:
+	pushd bundle; if [ ! -d 'vundle' ]; then \
+		git clone git://github.com/gmarik/vundle.git \
+		popd
 
 tmp_dirs:
 	mkdir -p tmp/{backup,swap,undo}
 
 tarball:
-	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp' *
+	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp/**/*' *
 
