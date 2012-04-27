@@ -1,5 +1,5 @@
 
-all: update vundle tmp_dirs
+all: update vundle tmp_dirs tarball
 
 update:
 	git pull --rebase
@@ -14,5 +14,6 @@ tmp_dirs:
 	mkdir -p tmp/{backup,swap,undo}
 
 tarball:
-	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp/**/*' *
+	rm -f vimfiles.tar.gz
+	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp/**/*' --exclude='tmp/*.*' *
 
