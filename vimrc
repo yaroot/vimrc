@@ -2,7 +2,7 @@
 
 filetype off
 if has('win32')
-    set runtimepath+=$HOME/vimfiles/bundle/vundle
+    set runtimepath+=$HOME/.vim/bundle/vundle
 else
     set runtimepath+=~/.vim/bundle/vundle
 endif
@@ -118,15 +118,15 @@ if v:version>=703
     set undofile
     set undolevels=1000
     if has('win32')
-        set undodir=$home\vimfiles\tmp\undo\\\\
+        set undodir=$home\.vim\tmp\undo\\\\
     else
         set undodir=~/.vim/tmp/undo//
     endif
 endif
 
 if has('win32')
-    set backupdir=$home\vimfiles\tmp\backup\\\\
-    set directory=$home\vimfiles\tmp\backup\\\\
+    set backupdir=$home\.vim\tmp\backup\\\\
+    set directory=$home\.vim\tmp\backup\\\\
 else
     set backupdir=~/.vim/tmp/backup//
     set directory=~/.vim/tmp/swap//
@@ -270,7 +270,7 @@ let g:yankring_replace_n_pkey = ''
 let g:yankring_replace_n_nkey = ''
 
 if has('win32')
-    let g:yankring_history_dir = "$HOME/vimfiles/tmp/"
+    let g:yankring_history_dir = "$HOME/.vim/tmp/"
     let g:loaded_dbext_dbi = 1
     let g:loaded_dbext_auto = 1
     let g:loaded_dbext = 1
