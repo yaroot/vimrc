@@ -1,12 +1,11 @@
 
 
 filetype off
-if has('win32')
-    set runtimepath+=$HOME/.vim/bundle/vundle
-else
-    set runtimepath+=~/.vim/bundle/vundle
-endif
+set runtimepath+=$HOME/.vim/bundle/vundle
 call vundle#rc()
+
+" buggy plugins
+set rtp+=$home/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
@@ -271,14 +270,12 @@ let g:yankring_replace_n_pkey = ''
 let g:yankring_replace_n_nkey = ''
 
 if has('win32')
-    let g:yankring_history_dir = "$HOME/.vim/tmp/"
     let g:loaded_dbext_dbi = 1
     let g:loaded_dbext_auto = 1
     let g:loaded_dbext = 1
 
     let g:syntastic_mode_map = {}
     let g:syntastic_mode_map['mode'] = 'passive'
-else
-    let g:yankring_history_dir = "~/.vim/tmp/"
 endif
+let g:yankring_history_dir = "$HOME/.vim/tmp/"
 
