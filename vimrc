@@ -60,6 +60,7 @@ Bundle 'wincent/Command-T'
 Bundle 'yaroot/Align'
 Bundle 'yaroot/DrawIt'
 Bundle 'yaroot/vissort'
+Bundle 'yaroot/wowlua.vim'
 
 set nocp
 
