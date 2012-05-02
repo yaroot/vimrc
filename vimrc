@@ -1,6 +1,10 @@
 
 
 filetype off
+
+
+let g:vundle_default_git_proto = 'git'
+
 set runtimepath+=$HOME/.vim/bundle/vundle
 call vundle#rc()
 
@@ -10,8 +14,6 @@ set rtp+=$home/.vim/vendor/increment
 Bundle 'gmarik/vundle'
 
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'bbommarito/vim-slim'
-"Bundle 'digitaltoad/vim-jade'
 Bundle 'godlygeek/tabular'
 Bundle 'groenewege/vim-less'
 Bundle 'int3/vim-extradite'
@@ -33,33 +35,44 @@ Bundle 'thedjinn/vim-endwise'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-pathogen'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-vividchalk'
-Bundle 'vim-scripts/DirDiff.vim'
-Bundle 'vim-scripts/Gundo'
-Bundle 'vim-scripts/Jinja'
-"Bundle 'vim-scripts/Lucius'
-Bundle 'vim-scripts/OmniCppComplete'
-Bundle 'vim-scripts/Rainbow-Parenthesis'
-Bundle 'vim-scripts/TaskList.vim'
-"Bundle 'vim-scripts/VimClojure'
-"Bundle 'vim-scripts/Wombat'
-Bundle 'vim-scripts/YankRing.vim'
-Bundle 'vim-scripts/a.vim'
-Bundle 'vim-scripts/dbext.vim'
-"Bundle 'vim-scripts/javacomplete'
-Bundle 'vim-scripts/muttrc.vim'
-Bundle 'vim-scripts/nginx.vim'
-"Bundle 'vim-scripts/slimv.vim'
-Bundle 'vim-scripts/taglist.vim'
-Bundle 'vim-scripts/tir_black'
 Bundle 'wincent/Command-T'
 Bundle 'yaroot/Align'
 Bundle 'yaroot/DrawIt'
 Bundle 'yaroot/vissort'
 Bundle 'yaroot/wowlua.vim'
+Bundle 'orftz/sbd.vim'
+"Bundle 'digitaltoad/vim-jade'
+"Bundle 'bbommarito/vim-slim'
+"Bundle 'tpope/vim-vividchalk'
+
+" install from vim-scripts
+Bundle 'DirDiff.vim'
+Bundle 'Gundo'
+Bundle 'Jinja'
+Bundle 'OmniCppComplete'
+Bundle 'Rainbow-Parenthesis'
+Bundle 'TaskList.vim'
+Bundle 'YankRing.vim'
+Bundle 'a.vim'
+Bundle 'dbext.vim'
+Bundle 'muttrc.vim'
+Bundle 'nginx.vim'
+Bundle 'taglist.vim'
+Bundle 'tir_black'
+Bundle 'mako.vim'
+Bundle 'mako.vim--Torborg'
+Bundle 'mru.vim'
+
+"Bundle 'Lucius'
+"Bundle 'VimClojure'
+"Bundle 'Wombat'
+"Bundle 'javacomplete'
+"Bundle 'slimv.vim'
+
+
+
 
 set nocp
 
