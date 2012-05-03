@@ -1,5 +1,5 @@
 
-all: update vundle tmp_dirs tarball
+all: update vundle tmp_dirs
 
 update:
 	git pull --rebase
