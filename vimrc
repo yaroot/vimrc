@@ -14,6 +14,7 @@ set rtp+=$home/.vim/vendor/increment
 Bundle 'gmarik/vundle'
 
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'Rip-Rip/clang_complete'
 Bundle 'godlygeek/tabular'
 Bundle 'groenewege/vim-less'
 Bundle 'int3/vim-extradite'
@@ -46,7 +47,6 @@ Bundle 'yaroot/wowlua.vim'
 "Bundle 'digitaltoad/vim-jade'
 "Bundle 'bbommarito/vim-slim'
 "Bundle 'tpope/vim-vividchalk'
-"Bundle 'Rip-Rip/clang_complete'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
