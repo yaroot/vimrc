@@ -46,12 +46,12 @@ Bundle 'yaroot/wowlua.vim'
 "Bundle 'digitaltoad/vim-jade'
 "Bundle 'bbommarito/vim-slim'
 "Bundle 'tpope/vim-vividchalk'
+"Bundle 'Rip-Rip/clang_complete'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
 Bundle 'Gundo'
 Bundle 'Jinja'
-Bundle 'OmniCppComplete'
 Bundle 'Rainbow-Parenthesis'
 Bundle 'TaskList.vim'
 Bundle 'YankRing.vim'
@@ -66,11 +66,11 @@ Bundle 'mako.vim--Torborg'
 Bundle 'mru.vim'
 
 "Bundle 'Lucius'
+"Bundle 'OmniCppComplete'
 "Bundle 'VimClojure'
 "Bundle 'Wombat'
 "Bundle 'javacomplete'
 "Bundle 'slimv.vim'
-
 
 
 
