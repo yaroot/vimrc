@@ -279,14 +279,25 @@ let g:loaded_AlignMapsPlugin = "v41"
 " yankring shits
 let g:yankring_replace_n_pkey = ''
 let g:yankring_replace_n_nkey = ''
+let g:yankring_history_dir = "$HOME/.vim/tmp/"
 
 if has('win32')
     let g:loaded_dbext_dbi = 1
     let g:loaded_dbext_auto = 1
     let g:loaded_dbext = 1
+endif
 
+if has('win32')
     let g:syntastic_mode_map = {}
     let g:syntastic_mode_map['mode'] = 'passive'
 endif
-let g:yankring_history_dir = "$HOME/.vim/tmp/"
+
+
+let g:clang_debug = 1
+" if has('win32')
+"     let g:clang_exec = '"path\to\clang.exe'
+"     let g:clang_user_options = '2> NUL || exit 0"'
+"     let g:clang_use_library = 1
+"     let g:clang_library_path = 'path\to\dir\contains\libclang.dll'
+" endif
 
