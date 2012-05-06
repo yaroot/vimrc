@@ -108,6 +108,8 @@ set diffopt=filler,vertical " diff模式
 set scrolloff=6 " 上下滚动留的最少行数
 "set cmdheight=2
 
+set completeopt=longest,menu
+
 set textwidth=70
 set wrapmargin=0
 set formatoptions=croq
