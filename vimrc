@@ -63,7 +63,6 @@ Bundle 'muttrc.vim'
 Bundle 'nginx.vim'
 Bundle 'taglist.vim'
 Bundle 'tir_black'
-Bundle 'todo.vim'
 
 "Bundle 'Lucius'
 "Bundle 'OmniCppComplete'
