@@ -66,6 +66,7 @@ Bundle 'muttrc.vim'
 Bundle 'nginx.vim'
 Bundle 'taglist.vim'
 Bundle 'tir_black'
+Bundle 'po.vim'
 
 "Bundle 'Lucius'
 "Bundle 'OmniCppComplete'
@@ -243,6 +244,7 @@ map <unique> <leader>tl <Plug>TaskList
 
 " Command-T
 nnoremap <unique> <silent> <Leader>tt :CommandT<CR>
+nnoremap <unique> <silent> <Leader>tf :CommandTFlush<CR>
 nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
 
 " ctrlp
