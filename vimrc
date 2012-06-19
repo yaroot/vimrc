@@ -67,6 +67,7 @@ Bundle 'nginx.vim'
 Bundle 'taglist.vim'
 Bundle 'tir_black'
 Bundle 'po.vim'
+Bundle 'velocity.vim'
 
 "Bundle 'Lucius'
 "Bundle 'OmniCppComplete'
