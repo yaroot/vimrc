@@ -207,6 +207,8 @@ let java_comment_strings=1
 let g:lisp_rainbow = 1
 "runtime syntax/RainbowParenthesis.vim
 
+runtime macros/matchit.vim
+
 if (v:version>=703)
     au vimenter,colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
     set colorcolumn=72,80
