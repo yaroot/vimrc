@@ -1,11 +1,11 @@
 
-all: update
+all: vundle tmp-dirs update
 
 install: update vundle tmp-dirs
 
 update:
 	git pull --rebase
-	@echo "Enter vim and run ':BundleInstall!' to install all vim-scripts"
+	vim -c ':BundleInstall!'
 
 vundle:
 	if [ ! -d 'bundle/vundle' ]; then \
