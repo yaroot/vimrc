@@ -8,9 +8,9 @@ update:
 	@echo "Enter vim and run ':BundleInstall!' to install all vim-scripts"
 
 vundle:
-	@pushd bundle; if [ ! -d 'vundle' ]; then \
-		git clone git://github.com/gmarik/vundle.git; \
-		fi; popd;
+	if [ ! -f 'bundle/vundle' ]; then \
+		git clone git://github.com/gmarik/vundle.git bundle/vundle; \
+	fi;
 
 tmp-dirs:
 	mkdir -p tmp/{backup,swap,undo}
