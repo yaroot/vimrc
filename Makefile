@@ -8,7 +8,7 @@ update:
 	@echo "Enter vim and run ':BundleInstall!' to install all vim-scripts"
 
 vundle:
-	if [ ! -f 'bundle/vundle' ]; then \
+	if [ ! -d 'bundle/vundle' ]; then \
 		git clone git://github.com/gmarik/vundle.git bundle/vundle; \
 	fi;
 
