@@ -1,3 +1,4 @@
+CMD_T_PATH="bundle/Command-T/ruby/command-t/"
 
 all: update vundle tmp_dir bundleinstall
 
@@ -8,6 +9,10 @@ update:
 
 bundleinstall:
 	vim +BundleInstall! +quitall
+
+command-t:
+	cd $(CMD_T_PATH) && ruby extconf.rb
+	$(MAKE) -C $(CMD_T_PATH)
 
 vundle:
 	test -e 'bundle/vundle' || git clone git://github.com/gmarik/vundle.git bundle/vundle
