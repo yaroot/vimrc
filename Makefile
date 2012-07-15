@@ -1,18 +1,18 @@
 
-all: vundle tmp-dirs update
+all: update vundle tmp_dir bundleinstall
 
-install: update vundle tmp-dirs
+install: update vundle tmp_dir
 
 update:
 	git pull --rebase
-	vim -c ':BundleInstall!'
+
+bundleinstall:
+	vim +BundleInstall! +quitall
 
 vundle:
-	if [ ! -d 'bundle/vundle' ]; then \
-		git clone git://github.com/gmarik/vundle.git bundle/vundle; \
-	fi;
+	test -e 'bundle/vundle' || git clone git://github.com/gmarik/vundle.git bundle/vundle
 
-tmp-dirs:
+tmp_dir:
 	mkdir -p tmp/{backup,swap,undo}
 
 tarball:
