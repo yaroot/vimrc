@@ -94,7 +94,7 @@ set fileencodings=ucs-bom,utf-8,gb-18030,gbk,gb2312,cp963,gb18030,big5,euc-jp,eu
 
 set showmatch       " blink the matching bracket
 set hls incsearch
-set autoindent cindent smartindent
+set autoindent cindent nosmartindent
 set tabstop=4       " 4 spaces indentation
 set shiftwidth=4    " same
 set softtabstop=4   " same
