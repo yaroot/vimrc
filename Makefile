@@ -27,3 +27,4 @@ tarball:
 dist-clean:
 	rm -rf bundle/*
 
+.PHONY: all install update vundle tmp-dirs tarball dist-clean
