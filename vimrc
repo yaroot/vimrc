@@ -71,7 +71,7 @@ Bundle 'taglist.vim'
 Bundle 'tir_black'
 Bundle 'velocity.vim'
 
-
+Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
 set nocp
 
