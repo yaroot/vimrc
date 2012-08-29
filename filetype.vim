@@ -20,4 +20,6 @@ autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 autocmd FileType lisp,c,ruby,eruby,perl,tex,less,sass,scss,coffee,html,xhtml,moon,sh,zsh,csh,tcsh setlocal tabstop=2 shiftwidth=2 softtabstop=2
 "autocmd FileType html let b:did_indent = 1
 
+autocmd FileType nginx setlocal commentstring=#\ %s
+
 
