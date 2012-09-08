@@ -27,4 +27,13 @@ tarball:
 dist-clean:
 	rm -rf bundle/*
 
+gc:
+	git gc
+	for r in bundle/*; do \
+		eval "pushd $$r > /dev/null"; \
+		git gc; \
+		eval "popd > /dev/null"; \
+		done
+
+
 .PHONY: all install update vundle tmp-dirs tarball dist-clean
