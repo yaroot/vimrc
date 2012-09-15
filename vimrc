@@ -174,7 +174,8 @@ if has('gui_running')
     elseif has('macunix')
         set guifont=Monaco:h14
     else
-        set guifont=DejaVu\ Sans\ Mono\ 9
+        " set guifont=DejaVu\ Sans\ Mono\ 9
+        set guifont=tamsyn\ 10
         set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
         "set guifont=Monospace:h7:w3
     endif
