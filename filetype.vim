@@ -6,7 +6,6 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 autocmd BufNewFile,BufRead *.vm set ft=velocity
 
 
-autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -22,4 +21,8 @@ autocmd FileType lisp,c,ruby,eruby,perl,tex,less,sass,scss,coffee,html,xhtml,moo
 
 autocmd FileType nginx setlocal commentstring=#\ %s
 
+
+" autocmd FileType python set omnifunc=pythoncomplete#Complete
+" autocmd FileType python IPython
+autocmd FileType python set omnifunc=CompleteIPython
 
