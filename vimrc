@@ -13,6 +13,7 @@ set rtp+=$home/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
+Bundle 'ivanov/vim-ipython'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'godlygeek/tabular'
