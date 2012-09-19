@@ -298,10 +298,8 @@ if has('win32')
     let g:loaded_dbext = 1
 endif
 
-if has('win32')
-    let g:syntastic_mode_map = {}
-    let g:syntastic_mode_map['mode'] = 'passive'
-endif
+let g:syntastic_mode_map = {}
+let g:syntastic_mode_map['mode'] = 'passive'
 
 
 " let g:clang_debug = 1
