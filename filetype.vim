@@ -4,6 +4,7 @@ autocmd BufNewFile,BufRead *.pac set ft=javascript
 autocmd BufNewFile,BufRead nginx.conf set ft=nginx
 autocmd BufNewFile,BufRead *.json set ft=javascript
 autocmd BufNewFile,BufRead *.vm set ft=velocity
+autocmd BufNewFile,BufRead *.sc set ft=scala " Scala IDE (eclipse) worksheet
 
 
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
