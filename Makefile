@@ -22,6 +22,9 @@ command-t:
 
 .PHONY: command-t
 
+script:
+	./update.sh
+
 tarball:
 	rm -f vimfiles.tar.gz
 	tar zcf vimfiles.tar.gz --exclude='.git' --exclude='tmp/**/*' --exclude='tmp/*.*' *
