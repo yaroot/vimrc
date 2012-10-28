@@ -9,7 +9,7 @@ set runtimepath+=$HOME/.vim/bundle/vundle
 call vundle#rc()
 
 " buggy plugins
-set rtp+=$home/.vim/vendor/increment
+set rtp+=$HOME/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
@@ -136,15 +136,15 @@ if v:version>=703
     set undofile
     set undolevels=1000
     if has('win32')
-        set undodir=$home\.vim\tmp\undo\\\\
+        set undodir=$HOME\.vim\tmp\undo\\\\
     else
         set undodir=~/.vim/tmp/undo//
     endif
 endif
 
 if has('win32')
-    set backupdir=$home\.vim\tmp\backup\\\\
-    set directory=$home\.vim\tmp\backup\\\\
+    set backupdir=$HOME\.vim\tmp\backup\\\\
+    set directory=$HOME\.vim\tmp\backup\\\\
 else
     set backupdir=~/.vim/tmp/backup//
     set directory=~/.vim/tmp/swap//
