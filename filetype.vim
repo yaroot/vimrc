@@ -1,11 +1,12 @@
 runtime! ftdetect/*.vim
 
-autocmd BufNewFile,BufRead *.pac setf javascript
-autocmd BufNewFile,BufRead nginx.conf set nginx
-autocmd BufNewFile,BufRead *.json setf javascript
-autocmd BufNewFile,BufRead *.vm setf velocity
-autocmd BufNewFile,BufRead *.sc setf scala " Scala IDE (eclipse) worksheet
-autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.* setf mail
+autocmd BufNewFile,BufRead *.pac,*.json setf javascript
+autocmd BufNewFile,BufRead *.vm         setf velocity
+autocmd BufNewFile,BufRead *.sc         setf scala      " Scala IDE (eclipse) worksheet
+
+autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
+autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    set nginx
+ 
 
 
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
