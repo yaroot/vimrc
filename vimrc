@@ -22,7 +22,6 @@ Bundle 'groenewege/vim-less'
 Bundle 'jnurmine/Zenburn'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'mattn/gist-vim'
 Bundle 'mattn/zencoding-vim'
@@ -53,6 +52,7 @@ Bundle 'yaroot/wowlua.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'tpope/vim-rails'
 " Bundle 'tpope/vim-vividchalk'
+" Bundle 'kien/ctrlp.vim'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
@@ -239,7 +239,7 @@ nnoremap <leader>8 :set t_Co=8<CR>
 nnoremap <leader>a :Ack  <bs>
 
 " TaskList
-map <unique> <leader>tl <Plug>TaskList
+" map <unique> <leader>tl <Plug>TaskList
 
 " NERDTree toggle
 "nnoremap <F11> :NERDTreeToggle<CR>
@@ -288,9 +288,9 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
 let g:loaded_AlignMapsPlugin = "v41"
 
 " yankring shits
-let g:yankring_replace_n_pkey = ''
-let g:yankring_replace_n_nkey = ''
-let g:yankring_history_dir = "$HOME/.vim/tmp/"
+" let g:yankring_replace_n_pkey = ''
+" let g:yankring_replace_n_nkey = ''
+" let g:yankring_history_dir = "$HOME/.vim/tmp/"
 
 if has('win32')
     let g:loaded_dbext_dbi = 1
