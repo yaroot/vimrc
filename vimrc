@@ -301,6 +301,10 @@ endif
 let g:syntastic_mode_map = {}
 let g:syntastic_mode_map['mode'] = 'passive'
 
+call Pl#Theme#RemoveSegment('hgrev:branch')
+call Pl#Theme#RemoveSegment('fugitive:branch')
+call Pl#Theme#RemoveSegment('rvm:string')
+
 
 " let g:clang_debug = 1
 " if has('win32')
