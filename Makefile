@@ -19,6 +19,7 @@ bundleinstall:
 
 command-t:
 	cd $(CMDT_PATH) && ruby extconf.rb
+	$(MAKE) -C $(CMDT_PATH) clean
 	$(MAKE) -C $(CMDT_PATH)
 
 .PHONY: command-t
