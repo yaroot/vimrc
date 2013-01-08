@@ -23,6 +23,7 @@ autocmd FileType lisp,c,ruby,eruby,perl,tex,less,sass,scss,coffee,html,xhtml,moo
 "autocmd FileType html let b:did_indent = 1
 
 autocmd FileType nginx setlocal commentstring=#\ %s
+autocmd FileType play2-html setlocal commentstring=@*\ %s\ *@
 
 
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
