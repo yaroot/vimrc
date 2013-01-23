@@ -300,11 +300,11 @@ endif
 let g:syntastic_mode_map = {}
 let g:syntastic_mode_map['mode'] = 'passive'
 
-call Pl#Theme#RemoveSegment('hgrev:branch')
-call Pl#Theme#RemoveSegment('fugitive:branch')
-call Pl#Theme#RemoveSegment('rvm:string')
-call Pl#Theme#RemoveSegment('virtualenv:statusline')
-call Pl#Theme#RemoveSegment('syntastic:errors')
+" call Pl#Theme#RemoveSegment('hgrev:branch')
+" call Pl#Theme#RemoveSegment('fugitive:branch')
+" call Pl#Theme#RemoveSegment('rvm:string')
+" call Pl#Theme#RemoveSegment('virtualenv:statusline')
+" call Pl#Theme#RemoveSegment('syntastic:errors')
 " :PowerlineClearCache
 
 " let g:clang_debug = 1
