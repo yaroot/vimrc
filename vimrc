@@ -13,7 +13,6 @@ set rtp+=$HOME/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
-Bundle 'Lokaltog/powerline'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'godlygeek/tabular'
@@ -52,6 +51,7 @@ Bundle 'yaroot/wowlua.vim'
 " Bundle 'tpope/vim-rails'
 " Bundle 'tpope/vim-vividchalk'
 " Bundle 'kien/ctrlp.vim'
+" Bundle 'Lokaltog/powerline'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
