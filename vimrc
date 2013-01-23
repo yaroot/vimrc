@@ -13,7 +13,7 @@ set rtp+=$HOME/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'godlygeek/tabular'
@@ -30,7 +30,6 @@ Bundle 'mileszs/ack.vim'
 Bundle 'msanders/snipmate.vim'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'orftz/sbd.vim'
 Bundle 'othree/html5.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'puppetlabs/puppet-syntax-vim'
