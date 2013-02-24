@@ -5,6 +5,7 @@ _install()
   local url="$1"
   local file="$2"
 
+  echo "curling [$url]"
   curl -sL "$url" | tee "$file" > /dev/null
 }
 
