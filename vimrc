@@ -289,11 +289,3 @@ let g:syntastic_mode_map['mode'] = 'passive'
 " call Pl#Theme#RemoveSegment('syntastic:errors')
 " :PowerlineClearCache
 
-" let g:clang_debug = 1
-" if has('win32')
-"     let g:clang_exec = '"path\to\clang.exe'
-"     let g:clang_user_options = '-Ipath\to\include 2> NUL || exit 0"'
-"     let g:clang_use_library = 1
-"     let g:clang_library_path = 'path\to\dir\contains\libclang.dll'
-" endif
-
