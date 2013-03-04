@@ -7,8 +7,6 @@ autocmd BufNewFile,BufRead *.sc         setf scala      " Scala IDE (eclipse) wo
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
 autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    set nginx
  
-
-
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -19,7 +17,7 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete
 autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 
-autocmd FileType lisp,c,ruby,eruby,perl,tex,less,sass,scss,coffee,html,xhtml,moon,sh,zsh,csh,tcsh,yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType lisp,c,ruby,eruby,perl,tex,less,sass,scss,coffee,html,xhtml,moon,sh,zsh,csh,tcsh,yaml,play-html setlocal tabstop=2 shiftwidth=2 softtabstop=2
 "autocmd FileType html let b:did_indent = 1
 
 autocmd FileType nginx setlocal commentstring=#\ %s
