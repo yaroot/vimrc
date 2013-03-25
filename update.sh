@@ -19,3 +19,6 @@ _install https://github.com/hdima/vim-scripts/raw/master/syntax/python/python.vi
 
 # better indent
 _install "http://www.vim.org/scripts/download_script.php?src_id=4316" $VIMD/indent/python.vim
+
+# protobuf
+_install "http://protobuf.googlecode.com/svn/trunk/editors/proto.vim" $VIMD/syntax/proto.vim
