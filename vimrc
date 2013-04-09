@@ -86,9 +86,9 @@ set history=200
 set magic ruler
 set number
 if v:version>=703
-    autocmd BufNewFile,BufRead * set relativenumber
+  autocmd BufNewFile,BufRead * set relativenumber
 else
-    set number
+  set number
 endif
 set wrap nolinebreak
 set diffopt=filler,vertical " diff模式
@@ -115,21 +115,21 @@ set wildmenu
 set wildmode=longest:full
 
 if v:version>=703
-    set undofile
-    set undolevels=1000
-    if has('win32')
-        set undodir=$HOME\.vim\tmp\undo\\\\
-    else
-        set undodir=~/.vim/tmp/undo//
-    endif
+  set undofile
+  set undolevels=1000
+  if has('win32')
+    set undodir=$HOME\.vim\tmp\undo\\\\
+  else
+    set undodir=~/.vim/tmp/undo//
+  endif
 endif
 
 if has('win32')
-    set backupdir=$HOME\.vim\tmp\backup\\\\
-    set directory=$HOME\.vim\tmp\backup\\\\
+  set backupdir=$HOME\.vim\tmp\backup\\\\
+  set directory=$HOME\.vim\tmp\backup\\\\
 else
-    set backupdir=~/.vim/tmp/backup//
-    set directory=~/.vim/tmp/swap//
+  set backupdir=~/.vim/tmp/backup//
+  set directory=~/.vim/tmp/swap//
 endif
 set backup writebackup
 
@@ -193,8 +193,8 @@ let g:lisp_rainbow = 1
 runtime macros/matchit.vim
 
 if (v:version>=703)
-    au vimenter,colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
-    set colorcolumn=72,80
+  au vimenter,colorscheme * hi ColorColumn ctermbg=234 guibg=#121212
+  set colorcolumn=72,80
 endif
 
 
@@ -275,18 +275,11 @@ let g:loaded_AlignMapsPlugin = "v41"
 " let g:yankring_history_dir = "$HOME/.vim/tmp/"
 
 if has('win32')
-    let g:loaded_dbext_dbi = 1
-    let g:loaded_dbext_auto = 1
-    let g:loaded_dbext = 1
+  let g:loaded_dbext_dbi = 1
+  let g:loaded_dbext_auto = 1
+  let g:loaded_dbext = 1
 endif
 
 let g:syntastic_mode_map = {}
 let g:syntastic_mode_map['mode'] = 'passive'
-
-" call Pl#Theme#RemoveSegment('hgrev:branch')
-" call Pl#Theme#RemoveSegment('fugitive:branch')
-" call Pl#Theme#RemoveSegment('rvm:string')
-" call Pl#Theme#RemoveSegment('virtualenv:statusline')
-" call Pl#Theme#RemoveSegment('syntastic:errors')
-" :PowerlineClearCache
 
