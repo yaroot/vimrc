@@ -143,32 +143,32 @@ set foldlevel=0
 set ttyfast
 
 set background=dark
-"colo solarized
-"colo slate
-"colo torte
-"colo lucius
-"colo moria
-"colo wombat
-if has('gui_running')
-    colo tir_black
-    set guioptions=
-    set lines=55
-    set columns=180
 
-    if has('win32')
-        set guifont=Monaco:h9
-    elseif has('macunix')
-        set guifont=Monaco:h14
-    else
-        " set guifont=DejaVu\ Sans\ Mono\ 9
-        set guifont=tamsyn\ 10
-        set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
-        "set guifont=Monospace:h7:w3
-    endif
+if has('gui_running')
+  colo tir_black
+  set guioptions=
+  set lines=55
+  set columns=180
+
+  if has('win32')
+    set guifont=Monaco:h9
+  elseif has('macunix')
+    set guifont=Monaco:h14
+  else
+    " set guifont=DejaVu\ Sans\ Mono\ 9
+    set guifont=tamsyn\ 10
+    set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
+    "set guifont=Monospace:h7:w3
+  endif
 else
-    "set t_Co=256
-    colo ir_black
+  "set t_Co=256
+  "colo tir_black
+  colo ir_black
 endif
+
+"if &diff
+"  colo jellybeans
+"endif
 
 
 "set cuc
