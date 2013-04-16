@@ -13,7 +13,6 @@ update:
 
 bundleinstall:
 	vim +BundleInstall! +quitall
-	#vim +PowerlineClearCache +quitall
 
 .PHONY: bundleinstall
 
