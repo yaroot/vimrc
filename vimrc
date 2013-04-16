@@ -31,12 +31,13 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'othree/html5.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'rking/ag.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-ragtag'
-Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-sleuth'
+Bundle 'tpope/vim-surround'
 Bundle 'wincent/Command-T'
 Bundle 'yaroot/Align'
 Bundle 'yaroot/DrawIt'
@@ -218,7 +219,7 @@ nnoremap <leader>2 :set t_Co=256<CR>
 nnoremap <leader>8 :set t_Co=8<CR>
 
 " ack on the fly
-nnoremap <leader>a :Ack  <bs>
+nnoremap <leader>a :Ag  <bs>
 
 " TaskList
 " map <unique> <leader>tl <Plug>TaskList
