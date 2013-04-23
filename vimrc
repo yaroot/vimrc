@@ -286,3 +286,8 @@ endif
 let g:syntastic_mode_map = {}
 let g:syntastic_mode_map['mode'] = 'passive'
 
+let python_version_2 = 1
+let python_highlight_all = 1
+let python_print_as_function = 0
+
+
