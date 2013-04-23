@@ -49,13 +49,15 @@ Bundle 'yaroot/wowlua.vim'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
+Bundle 'Jinja'
 Bundle 'Rainbow-Parenthesis'
 Bundle 'a.vim'
 Bundle 'dbext.vim'
+Bundle 'indentpython.vim'
 Bundle 'nginx.vim'
+Bundle 'python.vim--Vasiliev'
 Bundle 'taglist.vim'
 Bundle 'tir_black'
-Bundle 'Jinja'
 " Bundle 'po.vim'
 " Bundle 'Gundo'
 
