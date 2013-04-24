@@ -23,7 +23,7 @@ autocmd FileType cpp set omnifunc=omni#cpp#complete#Main
 
 autocmd FileType nginx setlocal commentstring=#\ %s
 autocmd FileType play2-html setlocal commentstring=@*\ %s\ *@
-
+autocmd FileType jinja setlocal commentstring=<!--%s-->
 
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
 " autocmd FileType python IPython

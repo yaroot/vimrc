@@ -13,6 +13,7 @@ set rtp+=$HOME/.vim/vendor/increment
 
 Bundle 'gmarik/vundle'
 
+Bundle 'Glench/Vim-Jinja2-Syntax'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'godlygeek/tabular'
 Bundle 'gre/play2vim'
@@ -49,7 +50,6 @@ Bundle 'yaroot/wowlua.vim'
 
 " install from vim-scripts
 Bundle 'DirDiff.vim'
-Bundle 'Jinja'
 Bundle 'Rainbow-Parenthesis'
 Bundle 'a.vim'
 Bundle 'dbext.vim'
