@@ -46,6 +46,7 @@ Bundle 'yaroot/DrawIt'
 Bundle 'yaroot/vim-endwise'
 Bundle 'yaroot/vissort'
 Bundle 'yaroot/wowlua.vim'
+Bundle 'gkz/vim-ls'
 " Bundle 'othree/xml.vim'
 " Bundle 'tpope/vim-vividchalk'
 
