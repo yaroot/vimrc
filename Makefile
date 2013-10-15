@@ -5,8 +5,8 @@ all: update bundleinstall
 .PHONY: all
 
 update:
-	git pull --rebase
-	test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/vundle
+	# git pull --rebase
+	test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 	mkdir -p tmp/{backup,swap,undo}
 
 .PHONY: vundle

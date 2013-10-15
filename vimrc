@@ -2,6 +2,7 @@
 
 filetype off
 
+let g:neobundle_default_git_protocol = 'git'
 
 set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
 call neobundle#rc(expand('~/.vim/bundle/'))
