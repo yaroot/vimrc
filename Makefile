@@ -25,11 +25,6 @@ tarball:
 
 .PHONY: tarball
 
-dist-clean:
-	rm -rf bundle/*
-
-.PHONY: dist-clean
-
 gc:
 	git gc
 	for r in bundle/*; do \
