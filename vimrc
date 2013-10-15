@@ -14,7 +14,9 @@ set rtp+=$HOME/.vim/vendor/increment
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'gkz/vim-ls'
 NeoBundle 'godlygeek/tabular'
@@ -26,8 +28,8 @@ NeoBundle 'jnwhiteh/vim-golang'
 NeoBundle 'juvenn/mustache.vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'majutsushi/tagbar'
-NeoBundle 'mattn/gist-vim'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'mattn/gist-vim'
 NeoBundle 'michaeljsmith/vim-indent-object'
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'msanders/snipmate.vim'
