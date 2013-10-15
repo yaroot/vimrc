@@ -1,6 +1,6 @@
 CMDT_PATH="bundle/Command-T/ruby/command-t/"
 
-all: update bundleinstall
+all: update
 
 .PHONY: all
 
@@ -8,13 +8,6 @@ update:
 	# git pull --rebase
 	test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 	mkdir -p tmp/{backup,swap,undo}
-
-.PHONY: vundle
-
-bundleinstall:
-	vim +BundleInstall! +quitall
-
-.PHONY: bundleinstall
 
 command-t:
 	cd $(CMDT_PATH) && ruby extconf.rb
