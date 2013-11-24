@@ -52,6 +52,7 @@ NeoBundle 'yaroot/vissort'
 " Bundle 'yaroot/wowlua.vim'
 " Bundle 'othree/xml.vim'
 " Bundle 'tpope/vim-vividchalk'
+" anekos/felis-cat-igirisu-toast-express
 
 " install from vim-scripts
 NeoBundle 'DirDiff.vim'
