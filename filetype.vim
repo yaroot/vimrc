@@ -6,7 +6,7 @@ autocmd BufNewFile,BufRead *.sc         setf scala      " Scala IDE (eclipse) wo
 autocmd BufRead,BufNewFile *.proto setfiletype proto
 
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
-autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    set nginx
+autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    setf nginx
  
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
