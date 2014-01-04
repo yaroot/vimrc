@@ -8,7 +8,7 @@ set ttimeoutlen=100
 
 function Fcitx_Leave()
     let status = system('fcitx-remote')
-    g:fcitx_should_activate = 0
+    let g:fcitx_should_activate = 0
     " echo status
     if status == 2
         let g:fcitx_should_activate = 1
