@@ -70,6 +70,8 @@ NeoBundle 'tir_black'
 
 " Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
+so $HOME/.vim/vendor/fcitx.vim
+
 set nocp
 
 " leader keybind
@@ -297,5 +299,4 @@ let g:syntastic_mode_map['mode'] = 'passive'
 let python_version_2 = 1
 let python_highlight_all = 1
 let python_print_as_function = 0
-
 
