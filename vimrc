@@ -53,17 +53,18 @@ NeoBundle 'yaroot/vissort'
 " Bundle 'yaroot/wowlua.vim'
 " Bundle 'othree/xml.vim'
 " Bundle 'tpope/vim-vividchalk'
-" anekos/felis-cat-igirisu-toast-express
 
-" install from vim-scripts
+" random mirrors found on github
+NeoBundle "kemadz/taglist"
+
 NeoBundle 'DirDiff.vim'
 NeoBundle 'Rainbow-Parenthesis'
-NeoBundle 'a.vim'
-NeoBundle 'dbext.vim'
+" NeoBundle 'a.vim'
+" NeoBundle 'dbext.vim'
+" NeoBundle 'nginx.vim'
+" NeoBundle 'openvpn'
 NeoBundle 'indentpython.vim'
-NeoBundle 'nginx.vim'
-NeoBundle 'openvpn'
-NeoBundle 'taglist.vim'
+" NeoBundle 'taglist.vim'
 NeoBundle 'tir_black'
 " Bundle 'po.vim'
 " Bundle 'Gundo'
