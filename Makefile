@@ -1,13 +1,15 @@
 CMDT_PATH="bundle/Command-T/ruby/command-t/"
 
-all: update
+all: update-bundle update-scripts
 
 .PHONY: all
 
-update:
+update-bundle:
 	# git pull --rebase
 	test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 	mkdir -p tmp/{backup,swap,undo}
+
+.PHONY: update-bundle
 
 command-t:
 	cd $(CMDT_PATH) && ruby extconf.rb
@@ -16,8 +18,10 @@ command-t:
 
 .PHONY: command-t
 
-script:
+update-scripts:
 	./update.sh
+
+.PHONY: update-scripts
 
 tarball:
 	rm -f vimfiles.tar.gz
