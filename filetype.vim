@@ -3,7 +3,8 @@ runtime! ftdetect/*.vim
 autocmd BufNewFile,BufRead *.pac,*.json setf javascript
 autocmd BufNewFile,BufRead *.vm         setf velocity
 autocmd BufNewFile,BufRead *.sc         setf scala      " Scala IDE (eclipse) worksheet
-autocmd BufRead,BufNewFile *.proto setfiletype proto
+autocmd BufRead,BufNewFile *.proto      setf proto
+autocmd BufRead,BufNewFile *.thrift     setf thrift
 
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
 autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    setf nginx
