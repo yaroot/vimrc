@@ -159,7 +159,6 @@ set ttyfast
 set background=dark
 
 if has('gui_running')
-  colo tir_black
   set guioptions=
   set lines=55
   set columns=180
@@ -177,7 +176,6 @@ if has('gui_running')
 else
   "set t_Co=256
   "colo tir_black
-  colo ir_black
 endif
 
 "if &diff
