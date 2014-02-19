@@ -229,7 +229,22 @@ nnoremap <leader>xeh :%!xxd -r<CR>
 nnoremap <leader>2 :set t_Co=256<CR>
 nnoremap <leader>8 :set t_Co=8<CR>
 
-" ack on the fly
+" '<leader>s-' convert
+"
+"   SECTION BAD ASS
+"   ==========
+"
+" to
+"
+"   SECTION BAD ASS
+"   ---------------
+"
+
+nnoremap <leader>s- VdkVypVr-
+nnoremap <leader>s= VdkVypVr=
+nnoremap <leader>s. VdkVypVr
+
+" ag on the fly
 nnoremap <leader>a :Ag  <bs>
 
 " TaskList
