@@ -7,7 +7,6 @@ autocmd BufRead,BufNewFile *.proto      setf proto
 autocmd BufRead,BufNewFile *.thrift     setf thrift
 
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
-autocmd BufNewFile,BufRead /etc/nginx/*.conf,/etc/nginx/*_params    setf nginx
  
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
