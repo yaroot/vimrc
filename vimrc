@@ -291,16 +291,11 @@ let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
 
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520 ctermbg=3
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020 ctermbg=4
 
 " disable Align mapping
 let g:loaded_AlignMapsPlugin = "v41"
-
-" yankring shits
-" let g:yankring_replace_n_pkey = ''
-" let g:yankring_replace_n_nkey = ''
-" let g:yankring_history_dir = "$HOME/.vim/tmp/"
 
 if has('win32')
   let g:loaded_dbext_dbi = 1
