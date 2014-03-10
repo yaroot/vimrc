@@ -33,7 +33,8 @@ gc:
 	git gc
 	for r in bundle/*; do \
 		eval "pushd '$$r'"; \
-		git gc; \
+		git gc --auto; \
+		git clean -xdf; \
 		popd > /dev/null; \
 		done
 
