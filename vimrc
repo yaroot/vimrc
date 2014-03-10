@@ -17,6 +17,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'chase/vim-ansible-yaml'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'gkz/vim-ls'
