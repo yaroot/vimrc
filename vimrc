@@ -52,25 +52,26 @@ NeoBundle 'yaroot/Align'
 NeoBundle 'yaroot/vim-endwise'
 NeoBundle 'yaroot/vim-nginx'
 NeoBundle 'yaroot/vissort'
-" Bundle 'yaroot/wowlua.vim'
-" Bundle 'othree/xml.vim'
-" Bundle 'tpope/vim-vividchalk'
+" NeoBundle 'yaroot/wowlua.vim'
+" NeoBundle 'othree/xml.vim'
+" NeoBundle 'tpope/vim-vividchalk'
 
 " random mirrors found on github
 NeoBundle "kemadz/taglist"
 
-NeoBundle 'DirDiff.vim'
-NeoBundle 'Rainbow-Parenthesis'
+
+" NeoBundle 'Gundo'
+" NeoBundle 'po.vim'
 " NeoBundle 'a.vim'
 " NeoBundle 'dbext.vim'
 " NeoBundle 'nginx.vim'
 " NeoBundle 'openvpn'
-NeoBundle 'indentpython.vim'
 " NeoBundle 'taglist.vim'
+NeoBundle 'DirDiff.vim'
+NeoBundle 'DrawIt'
+NeoBundle 'Rainbow-Parenthesis'
+NeoBundle 'indentpython.vim'
 NeoBundle 'tir_black'
-" Bundle 'po.vim'
-" Bundle 'Gundo'
-
 " Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
 so $HOME/.vim/vendor/fcitx.vim
@@ -171,8 +172,8 @@ if has('gui_running')
     set guifont=Monaco:h14
   else
     " set guifont=DejaVu\ Sans\ Mono\ 9
-    set guifont=tamsyn\ 11
-    set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 10
+    set guifont=tamsyn\ 14
+    set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 12
     "set guifont=Monospace:h7:w3
   endif
 else
