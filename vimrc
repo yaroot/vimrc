@@ -35,7 +35,6 @@ NeoBundle 'mattn/gist-vim'
 NeoBundle 'michaeljsmith/vim-indent-object'
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'msanders/snipmate.vim'
-NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
@@ -54,12 +53,23 @@ NeoBundle 'yaroot/vim-nginx'
 NeoBundle 'yaroot/vissort'
 " NeoBundle 'yaroot/wowlua.vim'
 " NeoBundle 'othree/xml.vim'
-" NeoBundle 'tpope/vim-vividchalk'
+
+" colorschemes
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'pyte'
+NeoBundle 'tir_black'
+NeoBundle 'twilight'
+NeoBundle 'twilight256.vim'
+" NeoBundle 'jonathanfilip/vim-lucius'
 
 " random mirrors found on github
 NeoBundle "kemadz/taglist"
 
 
+NeoBundle 'DirDiff.vim'
+NeoBundle 'DrawIt'
+NeoBundle 'Rainbow-Parenthesis'
+NeoBundle 'indentpython.vim'
 " NeoBundle 'Gundo'
 " NeoBundle 'po.vim'
 " NeoBundle 'a.vim'
@@ -67,12 +77,9 @@ NeoBundle "kemadz/taglist"
 " NeoBundle 'nginx.vim'
 " NeoBundle 'openvpn'
 " NeoBundle 'taglist.vim'
-NeoBundle 'DirDiff.vim'
-NeoBundle 'DrawIt'
-NeoBundle 'Rainbow-Parenthesis'
-NeoBundle 'indentpython.vim'
-NeoBundle 'tir_black'
-" Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+" NeoBundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+
+
 
 so $HOME/.vim/vendor/fcitx.vim
 

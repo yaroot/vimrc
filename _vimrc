@@ -6,5 +6,11 @@ endif
 if &diff
   colo jellybeans
 else
-  colo tir_black
+  colo jellybeans
+endif
+
+if has('gui_running')
+  set guifont=tamsyn\ 14
+  set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 14
+  colo twilight
 endif
