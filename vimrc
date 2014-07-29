@@ -51,6 +51,7 @@ NeoBundle 'yaroot/Align'
 NeoBundle 'yaroot/vim-endwise'
 NeoBundle 'yaroot/vim-nginx'
 NeoBundle 'yaroot/vissort'
+NeoBundle 'pld-linux/vim-syntax-vcl'
 " NeoBundle 'yaroot/wowlua.vim'
 " NeoBundle 'othree/xml.vim'
 
