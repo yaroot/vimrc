@@ -6,9 +6,10 @@ autocmd BufNewFile,BufRead *.sc         setf scala      " Scala IDE (eclipse) wo
 autocmd BufRead,BufNewFile *.proto      setf proto
 autocmd BufRead,BufNewFile *.thrift     setf thrift
 autocmd BufNewFile,BufRead *.vcl        setf vcl
+autocmd BufNewFile,BufRead *.ftl        setf ftl
 
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
- 
+
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
