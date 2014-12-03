@@ -56,6 +56,16 @@ NeoBundle 'chaquotay/ftl-vim-syntax'
 " NeoBundle 'yaroot/wowlua.vim'
 " NeoBundle 'othree/xml.vim'
 
+NeoBundle 'Shougo/vimproc.vim', {
+      \ 'build' : {
+      \     'windows' : 'tools\\update-dll-mingw',
+      \     'cygwin' : 'make -f make_cygwin.mak',
+      \     'mac' : 'make -f make_mac.mak',
+      \     'linux' : 'make',
+      \     'unix' : 'gmake',
+      \    },
+      \ }
+
 " colorschemes
 NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'pyte'
@@ -64,8 +74,8 @@ NeoBundle 'twilight'
 NeoBundle 'twilight256.vim'
 " NeoBundle 'jonathanfilip/vim-lucius'
 
-" random mirrors found on github
-NeoBundle "kemadz/taglist"
+" couldn't find a github mirror
+" NeoBundle "kemadz/taglist"
 
 
 NeoBundle 'DirDiff.vim'
@@ -320,4 +330,17 @@ let g:syntastic_mode_map['mode'] = 'passive'
 let python_version_2 = 1
 let python_highlight_all = 1
 let python_print_as_function = 0
+
+nnoremap <leader>g :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
+if executable('pt')
+  let g:unite_source_grep_command = 'pt'
+  let g:unite_source_grep_default_opts = '--nogroup --nocolor'
+  let g:unite_source_grep_recursive_opt = ''
+  let g:unite_source_grep_encoding = 'utf-8'
+elseif executable('ag')
+  let g:unite_source_grep_command = 'ag'
+  let g:unite_source_grep_default_opts = '--nogroup --nocolor'
+  let g:unite_source_grep_recursive_opt = ''
+  let g:unite_source_grep_encoding = 'utf-8'
+endif
 
