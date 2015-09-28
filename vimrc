@@ -4,16 +4,15 @@ filetype off
 
 let g:neobundle_default_git_protocol = 'git'
 
-set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
-call neobundle#rc(expand('~/.vim/bundle/'))
-
 " buggy plugins
 set rtp+=$HOME/.vim/vendor/increment
+
+set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Bundle 'gmarik/vundle'
 
 NeoBundleFetch 'Shougo/neobundle.vim'
-
 
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundle 'Shougo/unite.vim'
@@ -91,6 +90,7 @@ NeoBundle 'indentpython.vim'
 " NeoBundle 'taglist.vim'
 " NeoBundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
+call neobundle#end()
 
 
 so $HOME/.vim/vendor/fcitx.vim
