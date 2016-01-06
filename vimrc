@@ -2,7 +2,7 @@
 
 filetype off
 
-let g:neobundle_default_git_protocol = 'git'
+" let g:neobundle_default_git_protocol = 'git'
 
 " buggy plugins
 set rtp+=$HOME/.vim/vendor/increment
