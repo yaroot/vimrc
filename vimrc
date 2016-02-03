@@ -279,7 +279,7 @@ nnoremap <leader>a :Ag  <bs>
 "nnoremap <F12> :TlistToggle<CR>
 
 " Command-T
-nnoremap <unique> <silent> <Leader>tt :CommandT<CR>
+nnoremap <unique> <silent> <Leader>tt :CommandT .<CR>
 nnoremap <unique> <silent> <Leader>tf :CommandTFlush<CR>
 nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
 
