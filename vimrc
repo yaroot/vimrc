@@ -36,6 +36,7 @@ NeoBundle 'majutsushi/tagbar'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'mattn/gist-vim'
 NeoBundle 'michaeljsmith/vim-indent-object'
+NeoBundle 'mileszs/ack.vim'
 NeoBundle 'msanders/snipmate.vim'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'nathanaelkane/vim-indent-guides'
@@ -269,7 +270,7 @@ nnoremap <leader>s= VdkVypVr=
 nnoremap <leader>s. VdkVypVr
 
 " ag on the fly
-nnoremap <leader>a :Ag  <bs>
+nnoremap <leader>a :Ack  <bs>
 
 " TaskList
 " map <unique> <leader>tl <Plug>TaskList
@@ -313,6 +314,10 @@ let g:DirDiffIgnoreCase = 0
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520 ctermbg=grey
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020 ctermbg=darkgrey
