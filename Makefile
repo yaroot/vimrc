@@ -1,4 +1,5 @@
 CMDT_PATH="bundle/Command-T/ruby/command-t/"
+VIMPROC_PATH="bundle/vimproc.vim/"
 
 all: update-bundle update-scripts
 
@@ -17,6 +18,12 @@ command-t:
 	$(MAKE) -C $(CMDT_PATH)
 
 .PHONY: command-t
+
+vimproc:
+	cd  $(VIMPROC_PATH)
+	$(MAKE)
+
+.PHONY: vimproc
 
 update-scripts:
 	./update.sh
