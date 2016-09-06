@@ -20,8 +20,7 @@ command-t:
 .PHONY: command-t
 
 vimproc:
-	cd  $(VIMPROC_PATH)
-	$(MAKE)
+	$(MAKE) -C $(VIMPROC_PATH)
 
 .PHONY: vimproc
 
