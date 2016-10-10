@@ -8,6 +8,7 @@ autocmd BufRead,BufNewFile *.thrift     setf thrift
 autocmd BufNewFile,BufRead *.vcl        setf vcl
 autocmd BufNewFile,BufRead *.ftl        setf ftl
 autocmd BufNewFile,BufRead *.gradle     setf groovy
+autocmd BufNewFile,BufRead Jenkinsfile  setf groovy
 
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
 
