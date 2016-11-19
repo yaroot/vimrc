@@ -1,89 +1,93 @@
 
 
 filetype off
+set nocompatible
 
 " let g:neobundle_default_git_protocol = 'git'
+
 
 " buggy plugins
 set rtp+=$HOME/.vim/vendor/increment
 
-set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
-call neobundle#begin(expand('~/.vim/bundle/'))
+" set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
+" call neobundle#begin(expand('~/.vim/bundle/'))
 
-" Bundle 'gmarik/vundle'
+set runtimepath+=$HOME/.vim/dein/repos/github.com/Shougo/dein.vim
 
-NeoBundleFetch 'Shougo/neobundle.vim'
+call dein#begin('~/.vim/dein/repos/github.com/Shougo/dein.vim')
 
-NeoBundle 'Glench/Vim-Jinja2-Syntax'
-NeoBundle 'Shougo/unite.vim'
-NeoBundle 'cespare/vim-toml'
-NeoBundle 'chaquotay/ftl-vim-syntax'
-NeoBundle 'chase/vim-ansible-yaml'
-NeoBundle 'derekwyatt/vim-scala'
-NeoBundle 'digitaltoad/vim-jade'
-NeoBundle 'gkz/vim-ls'
-NeoBundle 'godlygeek/tabular'
-NeoBundle 'gre/play2vim'
-NeoBundle 'groenewege/vim-less'
-NeoBundle 'hdima/python-syntax'
-NeoBundle 'jakwings/vim-pony'
-NeoBundle 'jneen/ragel.vim'
-NeoBundle 'jnurmine/Zenburn'
-NeoBundle 'jnwhiteh/vim-golang'
-NeoBundle 'juvenn/mustache.vim'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'majutsushi/tagbar'
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'mattn/gist-vim'
-NeoBundle 'michaeljsmith/vim-indent-object'
-NeoBundle 'mileszs/ack.vim'
-NeoBundle 'msanders/snipmate.vim'
-NeoBundle 'mustache/vim-mustache-handlebars'
-NeoBundle 'nathanaelkane/vim-indent-guides'
-NeoBundle 'othree/html5.vim'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'pld-linux/vim-syntax-vcl'
-NeoBundle 'saltstack/salt-vim'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'tpope/vim-commentary'
-NeoBundle 'tpope/vim-markdown'
-NeoBundle 'tpope/vim-ragtag'
-NeoBundle 'tpope/vim-sleuth'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'wincent/Command-T'
-NeoBundle 'yaroot/Align'
-NeoBundle 'yaroot/vim-endwise'
-NeoBundle 'yaroot/vim-nginx'
-NeoBundle 'yaroot/vissort'
+" call dein#add
+
+call dein#add('Glench/Vim-Jinja2-Syntax')
+call dein#add('Shougo/unite.vim')
+call dein#add('cespare/vim-toml')
+call dein#add('chaquotay/ftl-vim-syntax')
+call dein#add('chase/vim-ansible-yaml')
+call dein#add('derekwyatt/vim-scala')
+call dein#add('digitaltoad/vim-jade')
+call dein#add('gkz/vim-ls')
+call dein#add('godlygeek/tabular')
+call dein#add('gre/play2vim')
+call dein#add('groenewege/vim-less')
+call dein#add('hdima/python-syntax')
+call dein#add('jakwings/vim-pony')
+call dein#add('jneen/ragel.vim')
+call dein#add('jnurmine/Zenburn')
+call dein#add('jnwhiteh/vim-golang')
+call dein#add('juvenn/mustache.vim')
+call dein#add('kchmck/vim-coffee-script')
+call dein#add('majutsushi/tagbar')
+call dein#add('mattn/emmet-vim')
+call dein#add('mattn/gist-vim')
+call dein#add('michaeljsmith/vim-indent-object')
+call dein#add('mileszs/ack.vim')
+call dein#add('msanders/snipmate.vim')
+call dein#add('mustache/vim-mustache-handlebars')
+call dein#add('nathanaelkane/vim-indent-guides')
+call dein#add('othree/html5.vim')
+call dein#add('pangloss/vim-javascript')
+call dein#add('pld-linux/vim-syntax-vcl')
+call dein#add('saltstack/salt-vim')
+call dein#add('scrooloose/syntastic')
+call dein#add('tpope/vim-commentary')
+call dein#add('tpope/vim-markdown')
+call dein#add('tpope/vim-ragtag')
+call dein#add('tpope/vim-sleuth')
+call dein#add('tpope/vim-surround')
+call dein#add('wincent/Command-T')
+call dein#add('yaroot/Align')
+call dein#add('yaroot/vim-endwise')
+call dein#add('yaroot/vim-nginx')
+call dein#add('yaroot/vissort')
 " NeoBundle 'yaroot/wowlua.vim'
 " NeoBundle 'othree/xml.vim'
 
-NeoBundle 'Shougo/vimproc.vim', {
-      \ 'build' : {
-      \     'windows' : 'tools\\update-dll-mingw',
-      \     'cygwin' : 'make -f make_cygwin.mak',
-      \     'mac' : 'make -f make_mac.mak',
-      \     'linux' : 'make',
-      \     'unix' : 'gmake',
-      \    },
-      \ }
+" NeoBundle 'Shougo/vimproc.vim', {
+"       \ 'build' : {
+"       \     'windows' : 'tools\\update-dll-mingw',
+"       \     'cygwin' : 'make -f make_cygwin.mak',
+"       \     'mac' : 'make -f make_mac.mak',
+"       \     'linux' : 'make',
+"       \     'unix' : 'gmake',
+"       \    },
+"       \ }
 
 " colorschemes
-NeoBundle 'nanotech/jellybeans.vim'
-NeoBundle 'pyte'
-NeoBundle 'tir_black'
-NeoBundle 'twilight'
-NeoBundle 'twilight256.vim'
+call dein#add('nanotech/jellybeans.vim')
+call dein#add('pyte')
+call dein#add('tir_black')
+call dein#add('twilight')
+call dein#add('twilight256.vim')
 " NeoBundle 'jonathanfilip/vim-lucius'
 
 " couldn't find a github mirror
-" NeoBundle "kemadz/taglist"
+" NeoBundle 'kemadz/taglist'
 
 
-NeoBundle 'DirDiff.vim'
-NeoBundle 'DrawIt'
-NeoBundle 'Rainbow-Parenthesis'
-NeoBundle 'indentpython.vim'
+call dein#add('DirDiff.vim')
+call dein#add('DrawIt')
+call dein#add('Rainbow-Parenthesis')
+call dein#add('indentpython.vim')
 " NeoBundle 'Gundo'
 " NeoBundle 'po.vim'
 " NeoBundle 'a.vim'
@@ -93,12 +97,10 @@ NeoBundle 'indentpython.vim'
 " NeoBundle 'taglist.vim'
 " NeoBundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
-call neobundle#end()
+call dein#end()
 
 
 so $HOME/.vim/vendor/fcitx.vim
-
-set nocp
 
 " leader keybind
 let mapleader=','
