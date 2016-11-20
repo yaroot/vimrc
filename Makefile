@@ -1,4 +1,4 @@
-CMDT_PATH="bundle/Command-T/ruby/command-t/"
+CMDT_PATH="dein/repos/github.com/wincent/command-t/ruby/command-t"
 VIMPROC_PATH="bundle/vimproc.vim/"
 
 all: update-bundle update-scripts

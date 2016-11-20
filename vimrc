@@ -14,7 +14,7 @@ set rtp+=$HOME/.vim/vendor/increment
 
 set runtimepath+=$HOME/.vim/dein/repos/github.com/Shougo/dein.vim
 
-call dein#begin('~/.vim/dein/repos/github.com/Shougo/dein.vim')
+call dein#begin('~/.vim/dein')
 
 " call dein#add
 
@@ -54,7 +54,7 @@ call dein#add('tpope/vim-markdown')
 call dein#add('tpope/vim-ragtag')
 call dein#add('tpope/vim-sleuth')
 call dein#add('tpope/vim-surround')
-call dein#add('wincent/Command-T')
+call dein#add('wincent/command-t')
 call dein#add('yaroot/Align')
 call dein#add('yaroot/vim-endwise')
 call dein#add('yaroot/vim-nginx')
