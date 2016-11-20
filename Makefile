@@ -9,7 +9,7 @@ update-bundle:
 	# git pull --rebase
 	# test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 	mkdir -p dein/repos/github.com/Shougo
-	test -e 'dein/repos/github.com/Shougo/dein.vim' || git clone https://github.com.com/Shougo/dein.vim dein/repos/github.com/Shougo/dein.vim
+	test -e 'dein/repos/github.com/Shougo/dein.vim' || git clone https://github.com/Shougo/dein.vim dein/repos/github.com/Shougo/dein.vim
 	mkdir -p tmp/{backup,swap,undo}
 
 .PHONY: update-bundle
