@@ -18,6 +18,7 @@ call dein#begin('~/.vim/dein')
 
 " call dein#add
 
+call dein#add('GEverding/vim-hocon')
 call dein#add('Glench/Vim-Jinja2-Syntax')
 call dein#add('Shougo/unite.vim')
 call dein#add('cespare/vim-toml')
@@ -27,7 +28,6 @@ call dein#add('derekwyatt/vim-scala')
 call dein#add('digitaltoad/vim-jade')
 call dein#add('gkz/vim-ls')
 call dein#add('godlygeek/tabular')
-call dein#add('gre/play2vim')
 call dein#add('groenewege/vim-less')
 call dein#add('hdima/python-syntax')
 call dein#add('jakwings/vim-pony')
@@ -59,18 +59,9 @@ call dein#add('yaroot/Align')
 call dein#add('yaroot/vim-endwise')
 call dein#add('yaroot/vim-nginx')
 call dein#add('yaroot/vissort')
-" NeoBundle 'yaroot/wowlua.vim'
-" NeoBundle 'othree/xml.vim'
-
-" NeoBundle 'Shougo/vimproc.vim', {
-"       \ 'build' : {
-"       \     'windows' : 'tools\\update-dll-mingw',
-"       \     'cygwin' : 'make -f make_cygwin.mak',
-"       \     'mac' : 'make -f make_mac.mak',
-"       \     'linux' : 'make',
-"       \     'unix' : 'gmake',
-"       \    },
-"       \ }
+" 'yaroot/wowlua.vim'
+" 'othree/xml.vim'
+" 'gre/play2vim'
 
 " colorschemes
 call dein#add('nanotech/jellybeans.vim')
@@ -78,24 +69,24 @@ call dein#add('pyte')
 call dein#add('tir_black')
 call dein#add('twilight')
 call dein#add('twilight256.vim')
-" NeoBundle 'jonathanfilip/vim-lucius'
+" 'jonathanfilip/vim-lucius'
 
 " couldn't find a github mirror
-" NeoBundle 'kemadz/taglist'
+" 'kemadz/taglist'
 
 
 call dein#add('DirDiff.vim')
 call dein#add('DrawIt')
 call dein#add('Rainbow-Parenthesis')
 call dein#add('indentpython.vim')
-" NeoBundle 'Gundo'
-" NeoBundle 'po.vim'
-" NeoBundle 'a.vim'
-" NeoBundle 'dbext.vim'
-" NeoBundle 'nginx.vim'
-" NeoBundle 'openvpn'
-" NeoBundle 'taglist.vim'
-" NeoBundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+" 'Gundo'
+" 'po.vim'
+" 'a.vim'
+" 'dbext.vim'
+" 'nginx.vim'
+" 'openvpn'
+" 'taglist.vim'
+" 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
 call dein#end()
 
