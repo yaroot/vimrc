@@ -18,6 +18,7 @@ call dein#begin('~/.vim/dein')
 
 " call dein#add
 
+call dein#add('gre/play2vim')
 call dein#add('GEverding/vim-hocon')
 call dein#add('Glench/Vim-Jinja2-Syntax')
 call dein#add('Shougo/unite.vim')
