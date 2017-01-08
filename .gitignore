@@ -5,8 +5,10 @@
 Session.vim
 .netrwhist
 
-/bundle/uzbl
+/plugged/
+/bundle/
 /tmp/
+/autoload/
 
 # Mac OSX
 .DS_Store

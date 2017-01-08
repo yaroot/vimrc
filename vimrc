@@ -3,82 +3,72 @@
 filetype off
 set nocompatible
 
-" let g:neobundle_default_git_protocol = 'git'
-
-
 " buggy plugins
 set rtp+=$HOME/.vim/vendor/increment
 
-" set runtimepath+=$HOME/.vim/bundle/neobundle.vim/
-" call neobundle#begin(expand('~/.vim/bundle/'))
+call plug#begin('~/.vim/plugged')
 
-set runtimepath+=$HOME/.vim/dein/repos/github.com/Shougo/dein.vim
-
-call dein#begin('~/.vim/dein')
-
-" call dein#add
-
-call dein#add('GEverding/vim-hocon')
-call dein#add('Glench/Vim-Jinja2-Syntax')
-call dein#add('Shougo/unite.vim')
-call dein#add('cespare/vim-toml')
-call dein#add('chaquotay/ftl-vim-syntax')
-call dein#add('chase/vim-ansible-yaml')
-call dein#add('derekwyatt/vim-scala')
-call dein#add('digitaltoad/vim-jade')
-call dein#add('gkz/vim-ls')
-call dein#add('godlygeek/tabular')
-call dein#add('groenewege/vim-less')
-call dein#add('hdima/python-syntax')
-call dein#add('jakwings/vim-pony')
-call dein#add('jneen/ragel.vim')
-call dein#add('jnurmine/Zenburn')
-call dein#add('jnwhiteh/vim-golang')
-call dein#add('juvenn/mustache.vim')
-call dein#add('kchmck/vim-coffee-script')
-call dein#add('majutsushi/tagbar')
-call dein#add('mattn/emmet-vim')
-call dein#add('mattn/gist-vim')
-call dein#add('michaeljsmith/vim-indent-object')
-call dein#add('mileszs/ack.vim')
-call dein#add('msanders/snipmate.vim')
-call dein#add('mustache/vim-mustache-handlebars')
-call dein#add('nathanaelkane/vim-indent-guides')
-call dein#add('othree/html5.vim')
-call dein#add('pangloss/vim-javascript')
-call dein#add('pld-linux/vim-syntax-vcl')
-call dein#add('saltstack/salt-vim')
-call dein#add('scrooloose/syntastic')
-call dein#add('tpope/vim-commentary')
-call dein#add('tpope/vim-markdown')
-call dein#add('tpope/vim-ragtag')
-call dein#add('tpope/vim-sleuth')
-call dein#add('tpope/vim-surround')
-call dein#add('wincent/command-t')
-call dein#add('yaroot/Align')
-call dein#add('yaroot/vim-endwise')
-call dein#add('yaroot/vim-nginx')
-call dein#add('yaroot/vissort')
+Plug 'GEverding/vim-hocon'
+Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'Shougo/unite.vim'
+Plug 'cespare/vim-toml'
+Plug 'chaquotay/ftl-vim-syntax'
+Plug 'chase/vim-ansible-yaml'
+Plug 'derekwyatt/vim-scala'
+Plug 'digitaltoad/vim-jade'
+Plug 'gkz/vim-ls'
+Plug 'godlygeek/tabular'
+Plug 'groenewege/vim-less'
+Plug 'hdima/python-syntax'
+Plug 'jakwings/vim-pony'
+Plug 'jneen/ragel.vim'
+Plug 'jnurmine/Zenburn'
+Plug 'jnwhiteh/vim-golang'
+Plug 'juvenn/mustache.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'majutsushi/tagbar'
+Plug 'mattn/emmet-vim'
+Plug 'mattn/gist-vim'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'mileszs/ack.vim'
+Plug 'msanders/snipmate.vim'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'pld-linux/vim-syntax-vcl'
+Plug 'saltstack/salt-vim'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-ragtag'
+Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-surround'
+Plug 'wincent/command-t'
+Plug 'yaroot/Align'
+Plug 'yaroot/vim-endwise'
+Plug 'yaroot/vim-nginx'
+Plug 'yaroot/vissort'
 " 'yaroot/wowlua.vim'
 " 'othree/xml.vim'
 " 'gre/play2vim'
 
 " colorschemes
-call dein#add('nanotech/jellybeans.vim')
-call dein#add('pyte')
-call dein#add('tir_black')
-call dein#add('twilight')
-call dein#add('twilight256.vim')
+Plug 'nanotech/jellybeans.vim'
+Plug 'pyte'
+Plug 'tir_black'
+Plug 'twilight'
+Plug 'twilight256.vim'
 " 'jonathanfilip/vim-lucius'
 
 " couldn't find a github mirror
 " 'kemadz/taglist'
 
 
-call dein#add('DirDiff.vim')
-call dein#add('DrawIt')
-call dein#add('Rainbow-Parenthesis')
-call dein#add('indentpython.vim')
+Plug 'DirDiff.vim'
+Plug 'DrawIt'
+Plug 'Rainbow-Parenthesis'
+Plug 'indentpython.vim'
 " 'Gundo'
 " 'po.vim'
 " 'a.vim'
@@ -88,8 +78,7 @@ call dein#add('indentpython.vim')
 " 'taglist.vim'
 " 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
-call dein#end()
-
+call plug#end()
 
 so $HOME/.vim/vendor/fcitx.vim
 

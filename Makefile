@@ -1,18 +1,8 @@
-CMDT_PATH="dein/repos/github.com/wincent/command-t/ruby/command-t"
-VIMPROC_PATH="bundle/vimproc.vim/"
+CMDT_PATH="plugged/command-t/ruby/command-t"
 
-all: update-bundle update-scripts
+all: scripts
 
 .PHONY: all
-
-update-bundle:
-	# git pull --rebase
-	# test -e 'bundle/neobundle.vim' || git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
-	mkdir -p dein/repos/github.com/Shougo
-	test -e 'dein/repos/github.com/Shougo/dein.vim' || git clone https://github.com/Shougo/dein.vim dein/repos/github.com/Shougo/dein.vim
-	mkdir -p tmp/{backup,swap,undo}
-
-.PHONY: update-bundle
 
 command-t:
 	cd $(CMDT_PATH) && ruby extconf.rb
@@ -21,15 +11,10 @@ command-t:
 
 .PHONY: command-t
 
-vimproc:
-	$(MAKE) -C $(VIMPROC_PATH)
-
-.PHONY: vimproc
-
-update-scripts:
+scripts:
 	./update.sh
 
-.PHONY: update-scripts
+.PHONY: scripts
 
 tarball:
 	rm -f vimfiles.tar.gz
