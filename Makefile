@@ -5,9 +5,7 @@ all: scripts
 .PHONY: all
 
 command-t:
-	cd $(CMDT_PATH) && ruby extconf.rb
-	$(MAKE) -C $(CMDT_PATH) clean
-	$(MAKE) -C $(CMDT_PATH)
+	cd $(CMDT_PATH) && ruby extconf.rb && make clean && make
 
 .PHONY: command-t
 

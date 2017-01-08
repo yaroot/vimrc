@@ -8,6 +8,8 @@ set rtp+=$HOME/.vim/vendor/increment
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'hashivim/vim-hashicorp-tools'
+Plug 'gre/play2vim'
 Plug 'GEverding/vim-hocon'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'Shougo/unite.vim'
@@ -63,7 +65,6 @@ Plug 'twilight256.vim'
 
 " couldn't find a github mirror
 " 'kemadz/taglist'
-
 
 Plug 'DirDiff.vim'
 Plug 'DrawIt'
