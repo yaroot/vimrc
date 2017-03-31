@@ -8,6 +8,7 @@ set rtp+=$HOME/.vim/vendor/increment
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'zsiciarz/caddy.vim'
 Plug 'hashivim/vim-hashicorp-tools'
 Plug 'gre/play2vim'
 Plug 'GEverding/vim-hocon'
