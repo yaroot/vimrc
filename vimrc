@@ -58,19 +58,19 @@ Plug 'yaroot/vissort'
 
 " colorschemes
 Plug 'nanotech/jellybeans.vim'
-Plug 'pyte'
-Plug 'tir_black'
-Plug 'twilight'
-Plug 'twilight256.vim'
+Plug 'vim-scripts/pyte'
+Plug 'vim-scripts/tir_black'
+Plug 'vim-scripts/twilight'
+Plug 'vim-scripts/twilight256.vim'
 " 'jonathanfilip/vim-lucius'
 
 " couldn't find a github mirror
 " 'kemadz/taglist'
 
-Plug 'DirDiff.vim'
-Plug 'DrawIt'
-Plug 'Rainbow-Parenthesis'
-Plug 'indentpython.vim'
+Plug 'vim-scripts/DirDiff.vim'
+Plug 'vim-scripts/DrawIt'
+Plug 'vim-scripts/Rainbow-Parenthesis'
+Plug 'vim-scripts/indentpython.vim'
 " 'Gundo'
 " 'po.vim'
 " 'a.vim'
