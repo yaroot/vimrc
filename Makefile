@@ -1,4 +1,5 @@
-CMDT_PATH="plugged/command-t/ruby/command-t"
+CMDT_PATH="plugged/command-t/ruby/command-t/ext/command-t"
+
 
 all: scripts
 
