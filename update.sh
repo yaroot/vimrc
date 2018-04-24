@@ -23,4 +23,5 @@ unterladen 'http://haproxy.1wt.eu/download/contrib/haproxy.vim'             $VIM
 unterladen 'http://svn.apache.org/repos/asf/thrift/attic/trunk/contrib/thrift.vim'  $VIMD/syntax/thrift.vim
 unterladen 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'    $VIMD/autoload/plug.vim
 unterladen 'https://gist.githubusercontent.com/yaroot/395629013a9ca17a0eb3f77b5c4f1058/raw/36889c805541afb28e23c0c34365f7c809a9f0c6/rsc.vim' $VIMD/syntax/rsc.vim
+unterladen 'https://github.com/docker/docker-ce/raw/master/components/engine/contrib/syntax/vim/syntax/dockerfile.vim' $VIMD/syntax/dockerfile.vim
 

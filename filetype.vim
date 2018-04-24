@@ -11,6 +11,7 @@ autocmd BufNewFile,BufRead *.gradle     setf groovy
 autocmd BufNewFile,BufRead Jenkinsfile  setf groovy
 autocmd BufNewFile,BufRead *.hcl        setf terraform
 
+autocmd BufNewFile,BufRead [Dd]ockerfile,Dockerfile.*,*.Dockerfile  setf dockerfile
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
 
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
@@ -33,4 +34,5 @@ autocmd FileType jinja setlocal commentstring={#\ %s\ #}
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
 " autocmd FileType python IPython
 autocmd FileType python set omnifunc=CompleteIPython
+
 
