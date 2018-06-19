@@ -171,21 +171,18 @@ if has('gui_running')
   set guioptions=
   set lines=55
   set columns=180
-
-  if has('win32')
-    set guifont=Monaco:h9
-  elseif has('macunix')
-    set guifont=Monaco:h14
-  else
-    " set guifont=DejaVu\ Sans\ Mono\ 9
-    set guifont=tamsyn\ 14
-    set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 12
-    "set guifont=Monospace:h7:w3
-  endif
-else
-  "set t_Co=256
-  "colo tir_black
 endif
+
+"if has('win32')
+"  set guifont=Monaco:h9
+"elseif has('macunix')
+"  set guifont=Monaco:h14
+"else
+"  " set guifont=DejaVu\ Sans\ Mono\ 9
+"  set guifont=tamsyn\ 14
+"  set guifontwide=WenQuanYi\ Micro\ Hei\ Mono\ 12
+"  "set guifont=Monospace:h7:w3
+"endif
 
 "if &diff
 "  colo jellybeans
