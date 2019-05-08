@@ -30,11 +30,11 @@ Plug 'jnurmine/Zenburn'
 Plug 'jnwhiteh/vim-golang'
 Plug 'juvenn/mustache.vim'
 Plug 'kchmck/vim-coffee-script'
+Plug 'lokikl/vim-ctrlp-ag'
 Plug 'majutsushi/tagbar'
 Plug 'mattn/emmet-vim'
 Plug 'mattn/gist-vim'
 Plug 'michaeljsmith/vim-indent-object'
-Plug 'mileszs/ack.vim'
 Plug 'msanders/snipmate.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -253,9 +253,6 @@ nnoremap <leader>s- VdkVypVr-
 nnoremap <leader>s= VdkVypVr=
 nnoremap <leader>s. VdkVypVr
 
-" ag on the fly
-nnoremap <leader>a :Ack  <bs>
-
 " TaskList
 " map <unique> <leader>tl <Plug>TaskList
 
@@ -264,13 +261,13 @@ nnoremap <leader>a :Ack  <bs>
 " taglist
 "nnoremap <F12> :TlistToggle<CR>
 
-" Command-T
-nnoremap <unique> <silent> <Leader>tt :CommandT .<CR>
-nnoremap <unique> <silent> <Leader>tf :CommandTFlush<CR>
-nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
 
 " ctrlp
 nnoremap <leader>tp :CtrlP<CR>
+" nnoremap <unique> <silent> <Leader>tt :CommandT .<CR>
+" nnoremap <unique> <silent> <Leader>tf :CommandTFlush<CR>
+" nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
+
 let g:ctrlp_map = "<c-m-p>"
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = {
@@ -298,10 +295,6 @@ let g:DirDiffIgnoreCase = 0
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size  = 1
-
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
-endif
 
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#202520 ctermbg=grey
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#202020 ctermbg=darkgrey

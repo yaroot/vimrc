@@ -10,6 +10,7 @@ autocmd BufNewFile,BufRead *.gradle     setf groovy
 autocmd BufNewFile,BufRead Jenkinsfile  setf groovy
 autocmd BufNewFile,BufRead *.hcl        setf terraform
 autocmd BufNewFile,BufRead pf.conf      setf pf
+autocmd BufNewFile,BufRead haproxy.cfg  setf haproxy
 
 autocmd BufNewFile,BufRead [Dd]ockerfile,Dockerfile.*,*.Dockerfile  setf dockerfile
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
