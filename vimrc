@@ -30,7 +30,6 @@ Plug 'jnurmine/Zenburn'
 Plug 'jnwhiteh/vim-golang'
 Plug 'juvenn/mustache.vim'
 Plug 'kchmck/vim-coffee-script'
-Plug 'lokikl/vim-ctrlp-ag'
 Plug 'majutsushi/tagbar'
 Plug 'mattn/emmet-vim'
 Plug 'mattn/gist-vim'
@@ -274,6 +273,11 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$',
   \ 'file': '\.exe$\|\.so$\|\.dat$'
   \ }
+
+if executable('ag')
+  let g:ctrlp_use_caching=0
+  let g:ctrlp_user_command='ag %s -i --nocolor --nogroup -g ""'
+endif
 
 " DirDiff
 "Sets default exclude pattern:
