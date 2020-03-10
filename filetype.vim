@@ -2,6 +2,7 @@ runtime! ftdetect/*.vim
 
 autocmd BufNewFile,BufRead *.pac,*.json setf javascript
 autocmd BufNewFile,BufRead *.sc,*.amm   setf scala
+autocmd BufNewFile,BufRead *.hsc        setf haskell
 autocmd BufRead,BufNewFile *.proto      setf proto
 autocmd BufRead,BufNewFile *.thrift     setf thrift
 autocmd BufNewFile,BufRead *.vcl        setf vcl

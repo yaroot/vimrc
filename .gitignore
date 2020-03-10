@@ -16,6 +16,8 @@ Icon?
 .Spotlight-V100
 .Trashes
 
+# neovim init
+/init.vim
 
 *.tar.gz
 *.old
