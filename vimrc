@@ -23,7 +23,6 @@ Plug 'godlygeek/tabular'
 Plug 'gre/play2vim'
 Plug 'gre/play2vim'
 Plug 'groenewege/vim-less'
-Plug 'hashivim/vim-hashicorp-tools'
 Plug 'hdima/python-syntax'
 Plug 'jakwings/vim-pony'
 Plug 'jceb/vim-orgmode'
@@ -55,10 +54,6 @@ Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'vmchale/dhall-vim'
-Plug 'yaroot/Align'
-Plug 'yaroot/vim-endwise'
-Plug 'yaroot/vim-nginx'
-Plug 'yaroot/vissort'
 Plug 'zsiciarz/caddy.vim'
 
 " colorschemes
@@ -69,13 +64,11 @@ Plug 'vim-scripts/twilight'
 Plug 'vim-scripts/twilight256.vim'
 " 'jonathanfilip/vim-lucius'
 
-" couldn't find a github mirror
-" 'kemadz/taglist'
-
 Plug 'vim-scripts/DirDiff.vim'
 Plug 'vim-scripts/DrawIt'
 Plug 'vim-scripts/Rainbow-Parenthesis'
 Plug 'vim-scripts/indentpython.vim'
+
 " 'Gundo'
 " 'po.vim'
 " 'a.vim'
@@ -84,6 +77,7 @@ Plug 'vim-scripts/indentpython.vim'
 " 'openvpn'
 " 'taglist.vim'
 " 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+" 'hashivim/vim-hashicorp-tools'
 
 call plug#end()
 
