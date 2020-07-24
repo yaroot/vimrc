@@ -86,6 +86,7 @@ so $HOME/.vim/vendor/fcitx.vim
 
 " leader keybind
 let mapleader=','
+let maplocalleader='.'
 
 " Encoding stuffs
 set nobomb
