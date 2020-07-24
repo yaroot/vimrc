@@ -236,35 +236,8 @@ nnoremap <leader>xeh :%!xxd -r<CR>
 nnoremap <leader>2 :set t_Co=256<CR>
 nnoremap <leader>8 :set t_Co=8<CR>
 
-" '<leader>s-' convert
-"
-"   SECTION BAD ASS
-"   ==========
-"
-" to
-"
-"   SECTION BAD ASS
-"   ---------------
-"
-
-nnoremap <leader>s- VdkVypVr-
-nnoremap <leader>s= VdkVypVr=
-nnoremap <leader>s. VdkVypVr
-
-" TaskList
-" map <unique> <leader>tl <Plug>TaskList
-
-" NERDTree toggle
-"nnoremap <F11> :NERDTreeToggle<CR>
-" taglist
-"nnoremap <F12> :TlistToggle<CR>
-
-
 " ctrlp
 nnoremap <leader>tp :CtrlP<CR>
-" nnoremap <unique> <silent> <Leader>tt :CommandT .<CR>
-" nnoremap <unique> <silent> <Leader>tf :CommandTFlush<CR>
-" nnoremap <unique> <silent> <Leader>tb :CommandTBuffer<CR>
 
 let g:ctrlp_map = "<c-m-p>"
 let g:ctrlp_working_path_mode = 0
