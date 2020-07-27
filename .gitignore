@@ -18,6 +18,7 @@ Icon?
 
 # neovim init
 /init.vim
+/ginit.vim
 
 *.tar.gz
 *.old
