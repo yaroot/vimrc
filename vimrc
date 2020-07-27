@@ -109,11 +109,7 @@ set backspace=indent,eol,start  " smart backspacing
 set history=200
 set magic ruler
 set number
-if v:version>=703
-  autocmd BufNewFile,BufRead * set relativenumber
-else
-  set number
-endif
+set relativenumber
 set wrap nolinebreak
 set diffopt=filler,vertical " diff模式
 set scrolloff=6 " 上下滚动留的最少行数
