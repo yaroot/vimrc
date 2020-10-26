@@ -23,6 +23,7 @@ Plug 'godlygeek/tabular'
 Plug 'gre/play2vim'
 Plug 'gre/play2vim'
 Plug 'groenewege/vim-less'
+Plug 'hashivim/vim-hashicorp-tools'
 Plug 'hdima/python-syntax'
 Plug 'jakwings/vim-pony'
 Plug 'jceb/vim-orgmode'
@@ -78,7 +79,6 @@ Plug 'vim-scripts/indentpython.vim'
 " 'openvpn'
 " 'taglist.vim'
 " 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
-" 'hashivim/vim-hashicorp-tools'
 
 call plug#end()
 
