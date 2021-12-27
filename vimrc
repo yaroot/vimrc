@@ -57,6 +57,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
+Plug 'triglav/vim-visual-increment'
+Plug 'vmchale/dhall-vim'
+Plug 'zsiciarz/caddy.vim'
 
 " colorschemes
 Plug 'nanotech/jellybeans.vim'
@@ -140,7 +143,7 @@ if v:version>=703
   if has('win32')
     set undodir=$HOME\.vim\tmp\undo\\\\
   else
-    set undodir=~/.vim/tmp/undo//
+    set undodir=~/.vim/tmp/undo/
   endif
 endif
 
