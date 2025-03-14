@@ -1,17 +1,17 @@
 runtime! ftdetect/*.vim
 
-autocmd BufNewFile,BufRead *.pac,*.json setf javascript
-autocmd BufNewFile,BufRead *.sc,*.amm   setf scala
-autocmd BufNewFile,BufRead *.hsc        setf haskell
-autocmd BufRead,BufNewFile *.proto      setf proto
-autocmd BufRead,BufNewFile *.thrift     setf thrift
-autocmd BufNewFile,BufRead *.vcl        setf vcl
-autocmd BufNewFile,BufRead *.ftl        setf ftl
-autocmd BufNewFile,BufRead *.gradle     setf groovy
-autocmd BufNewFile,BufRead Jenkinsfile  setf groovy
-autocmd BufNewFile,BufRead *.hcl        setf terraform
-autocmd BufNewFile,BufRead pf.conf      setf pf
-autocmd BufNewFile,BufRead haproxy.cfg  setf haproxy
+autocmd BufNewFile,BufRead *.pac,*.json         setf javascript
+autocmd BufNewFile,BufRead *.sc,*.amm,*.mill    setf scala
+autocmd BufNewFile,BufRead *.hsc                setf haskell
+autocmd BufNewFile,BufRead *.proto              setf proto
+autocmd BufNewFile,BufRead *.thrift             setf thrift
+autocmd BufNewFile,BufRead *.vcl                setf vcl
+autocmd BufNewFile,BufRead *.ftl                setf ftl
+autocmd BufNewFile,BufRead *.gradle             setf groovy
+autocmd BufNewFile,BufRead Jenkinsfile          setf groovy
+autocmd BufNewFile,BufRead *.hcl                setf terraform
+autocmd BufNewFile,BufRead pf.conf              setf pf
+autocmd BufNewFile,BufRead haproxy.cfg          setf haproxy
 
 autocmd BufNewFile,BufRead [Dd]ockerfile,Dockerfile.*,*.Dockerfile  setf dockerfile
 autocmd BufNewFile,BufRead *.claws-mail/tmp/tmpmsg.*                setf mail
