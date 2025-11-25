@@ -1,5 +1,4 @@
 
-
 filetype off
 set nocompatible
 
@@ -49,6 +48,7 @@ Plug 'michaeljsmith/vim-indent-object'
 Plug 'morhetz/gruvbox'
 Plug 'msanders/snipmate.vim'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'rhaiscript/vim-rhai'
 Plug 'scrooloose/syntastic'
 Plug 'sheerun/vim-polyglot'
 Plug 'tomlion/vim-solidity'
@@ -60,7 +60,6 @@ Plug 'tpope/vim-surround'
 Plug 'triglav/vim-visual-increment'
 Plug 'vmchale/dhall-vim'
 Plug 'zsiciarz/caddy.vim'
-plug 'rhaiscript/vim-rhai'
 
 " colorschemes
 Plug 'nanotech/jellybeans.vim'
